@@ -48,7 +48,7 @@ export default function Home() {
     }, 1000)
   }
   const nav = useNavigate()
-  const zoomLink= 'https://us04web.zoom.us/j/74886279975?pwd=BkGzFVZz45er07oVGaomZrS7bTCusa.1'
+  const zoomLink = 'https://us04web.zoom.us/j/74886279975?pwd=BkGzFVZz45er07oVGaomZrS7bTCusa.1'
 
   // let countDown = countdown()
 
@@ -141,15 +141,25 @@ export default function Home() {
       </Box>
       <Box mt="32px" bg="orange.orange500" p="1.5em">
 
-      <Text color="#fff" fontSize="24px" fontWeight= "600" textAlign= "center"> Live Stream</Text>
-      <Text color="#fff" fontSize="16px" fontWeight= "400" textAlign= "center" mt="20px">Our wedding will be live streamed. Click the button below to join live and use the password - MIMO24</Text>
+        <Text color="#fff" fontSize="24px" fontWeight="600" textAlign="center"> Live Stream</Text>
+        <Text color="#fff" fontSize="16px" fontWeight="400" textAlign="center" mt="20px">Our wedding will be live streamed. Click the button below to join live and use the password - MIMO24</Text>
         <a href={`${zoomLink}`} target={"blank"} >
 
-        <Flex mx={["7%", "0"]} mt="32px" justifyContent={"center"} alignItems={"center"} textAlign={"center"}>
-        <Button w={['100%', 'auto']} mt={["10px", "0"]} hoverColor='#000' px="30px"  leftIcon={<FaVideo/>} hoverBorder={"none"} border="2px solid #fff" background='transparent' >Watch Live</Button>
-        </Flex>
+          <Flex mx={["7%", "0"]} mt="32px" justifyContent={"center"} alignItems={"center"} textAlign={"center"}>
+            <Button w={['100%', 'auto']} mt={["10px", "0"]} hoverColor='#000' px="30px" leftIcon={<FaVideo />} hoverBorder={"none"} border="2px solid #fff" background='transparent' >Watch Live</Button>
+          </Flex>
         </a>
       </Box>
+      <Text mt={"32px"} textAlign={"center"} fontSize={"2em"} px={"6%"} textTransform={"uppercase"} fontWeight={"600"} lineHeight={"1em"} color={"#121f38"}>GPS location of the hall</Text>
+      <Flex justifyContent={"center"} my="32px">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.4569407425242!2d4.528358073776688!3d7.525035410717719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103830e891e83699%3A0xa8fb60744f557fb6!2sOgunbanjo%20Hall!5e0!3m2!1sen!2sng!4v1695929953050!5m2!1sen!2sng"
+          width="1000" height="350" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </Flex>
+      <Text mt={"32px"} textAlign={"center"} fontSize={"2em"} px={"6%"} textTransform={"uppercase"} fontWeight={"600"} lineHeight={"1em"} color={"#121f38"}>GPS location of the Church</Text>
+      <Flex justifyContent={"center"} my="32px">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63287.29814134513!2d4.489732840329909!3d7.525123892648146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1038379c97b54af5%3A0x1b6c499e958acf03!2sChrist%20Apostolic%20Church%20Mount%20Bethel%2C%20Ede%20Road%20Assembly%2C%20Ile%20Ife!5e0!3m2!1sen!2sng!4v1695931018153!5m2!1sen!2sng"
+       width="1000" height="350"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </Flex>
     </OuterLayout>
   )
 }
