@@ -1,6 +1,7 @@
 import { Box, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, DrawerFooter, DrawerHeader, DrawerOverlay, Flex, Image, Stack,  useDisclosure } from '@chakra-ui/react'
 import React from 'react'
-import logo from '../asset/logo.png'
+import logo from '../asset/logoGold.png'
+import logoBlack from '../asset/logoBlack.png'
 import NavItem from './NavItem'
 import {  BiMenuAltRight, BiSolidContact } from 'react-icons/bi'
 import { useNavigate } from 'react-router-dom'
@@ -47,7 +48,7 @@ export default function NavBar() {
     <Flex py="12px" bg="rgba(42, 42, 42, 0.95)" zIndex={"12"} px="6%" justifyContent={"space-between"} position={"fixed"} top={"0"} w={"100%"}>
       <Image src={logo} w={["25%", "20%", "10%", "10%", "10%"]} />
 
-      <Flex display={["none", "none", "flex", "flex", "flex",]} justifyContent={"space-between"} cursor={"pointer"} alignItems={"center"} color={"#fff"}>
+      <Flex display={["none", "none", "none", "flex", "flex",]} justifyContent={"space-between"} cursor={"pointer"} alignItems={"center"} color={"#fff"}>
         {
           list.map((item, i) => (
 
@@ -63,7 +64,7 @@ export default function NavBar() {
         <Button w='auto' onClick={() => nav("/login")}>Get E-invite</Button>
       </Flex>
 
-      <Box onClick={() => onOpen()} color={"#fff"} fontSize={"28px"} alignItems={"center"} display={["flex", "flex", "none", "none", "none",]}>
+      <Box onClick={() => onOpen()} color={"#fff"} fontSize={"28px"} alignItems={"center"} display={["flex", "flex", "flex", "none", "none",]}>
         <BiMenuAltRight />
       </Box>
 
@@ -77,9 +78,9 @@ export default function NavBar() {
       >
         <DrawerOverlay />
         <DrawerContent>
-          <DrawerCloseButton bg={"gray.gray600"} color="#fff" mt={"17px"} />
+          <DrawerCloseButton bg={"orange.orange500"} color="#fff" mt={"17px"} />
           <DrawerHeader>
-            <Image src={logo} w={"45%"} />
+            <Image src={logoBlack} w={"45%"} />
           </DrawerHeader>
 
           <DrawerBody>

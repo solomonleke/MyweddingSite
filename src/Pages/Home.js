@@ -157,9 +157,22 @@ export default function Home() {
       </Flex>
       <Text mt={"32px"} textAlign={"center"} fontSize={"2em"} px={"6%"} textTransform={"uppercase"} fontWeight={"600"} lineHeight={"1em"} color={"#121f38"}>GPS location of the Church</Text>
       <Flex justifyContent={"center"} my="32px">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63287.29814134513!2d4.489732840329909!3d7.525123892648146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1038379c97b54af5%3A0x1b6c499e958acf03!2sChrist%20Apostolic%20Church%20Mount%20Bethel%2C%20Ede%20Road%20Assembly%2C%20Ile%20Ife!5e0!3m2!1sen!2sng!4v1695931018153!5m2!1sen!2sng"
-       width="1000" height="350"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63287.29814134513!2d4.489732840329909!3d7.525123892648146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1038379c97b54af5%3A0x1b6c499e958acf03!2sChrist%20Apostolic%20Church%20Mount%20Bethel%2C%20Ede%20Road%20Assembly%2C%20Ile%20Ife!5e0!3m2!1sen!2sng!4v1695931018153!5m2!1sen!2sng"
+          width="1000" height="350" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </Flex>
+
+      <Text mt={"32px"} textAlign={"center"} fontSize={"2em"} px={"6%"} textTransform={"uppercase"} fontWeight={"600"} lineHeight={"1em"} color={"#121f38"}>How We Started</Text>
+      <Flex justifyContent={"center"} alignItems={"center"} textAlign={"center"}>
+        <Box w={["90%", "80%", "60%", "50%", "50%"]} color="#595e5e" >
+          <Text fontSize={["1em", "1em", "1.1em", "1.2em", "1em"]} mt="22px"> "One of the surprising things after the day we met was that we got along pretty quick which I never envisaged." - Iretioluwa Popoola</Text>
+        </Box>
+      </Flex>
+
+      <Box px="6%">
+          <Flex justifyContent={"center"}>
+
+          </Flex>
+      </Box>
     </OuterLayout>
   )
 }

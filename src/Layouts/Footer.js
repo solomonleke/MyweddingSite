@@ -3,14 +3,14 @@ import React from 'react'
 import Button from '../Components/Button'
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa'
 import Input from '../Components/Input'
-import logo from '../asset/logo.png'
+import logo from '../asset/logoGold.png'
 
 
 export default function Footer() {
   return (
     <Box bg="#242424" px="6%" py="12px" pb="32px">
       <Flex justifyContent={"space-between"} mt="32px" flexWrap={"wrap"} mb="32px">
-        <Box w={["70%", "70%", "700%", "32%", "32%",]} display={["none","none","none","block", "block"]} >
+        <Box w={["100%", "100%", "100%", "32%", "32%",]} justifyContent={"center"} display={["flex","flex","flex","block", "block"]} >
         <Image w="50%" src={logo}/>
        
         </Box>
