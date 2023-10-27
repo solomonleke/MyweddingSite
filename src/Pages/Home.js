@@ -1,15 +1,37 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef, useEffect, useDisclosure } from "react";
 import Seo from "../Utils/Seo";
 import OuterLayout from "../Layouts/Index";
-import { Box, Flex, Image, SimpleGrid, Text, scroll } from "@chakra-ui/react";
+import Card from "../Components/Card";
+import logoGold from "../asset/logoGold.png";
+import { SlideFadeEx } from "../Components/TransitionsMo";
+import {
+  Box,
+  Container,
+  Flex,
+  Image,
+  SimpleGrid,
+  Text,
+  Center,
+  Avatar,
+  scroll,
+  TabPanels,
+  TabPanel,
+  Tab,
+  Tabs,
+  TabList,
+} from "@chakra-ui/react";
 import Button from "../Components/Button";
 import { useNavigate, Link } from "react-router-dom";
 import image1 from "../asset/image3.jpg";
 import rose from "../asset/rose.png";
 import { HiOutlineArrowNarrowDown } from "react-icons/hi";
 import { FaVideo } from "react-icons/fa";
+
 import wife from "../../src/asset/ireti1.jpg";
 import { transform } from "framer-motion";
+import NavItem from "../Layouts/NavItem";
+import { BsFileX } from "react-icons/bs";
+import { cardItems } from "../Utils/cardsUtils/CardItems";
 
 export default function Home() {
   const [TimerDays, setTimerDays] = useState("00");
@@ -59,6 +81,10 @@ export default function Home() {
       clearInterval(interval.current);
     };
   }, []);
+
+  const GroomsMen = cardItems.filter((item) => item.category === "Bridesmaid");
+
+  const bridesmaids = cardItems.filter((item) => item.category === "GroomsMen");
 
   return (
     <OuterLayout>
@@ -235,7 +261,6 @@ export default function Home() {
               fontSize={["1em", "1em", "1.1em", "1.2em", "1.3em"]}
               mt="12px"
             >
-              {" "}
               “Therefore shall a man leave his father and his mother, and shall
               cleave unto his wife: and they shall be one flesh.”
             </Text>
@@ -362,54 +387,60 @@ export default function Home() {
         </Box>
       </Flex>
 
-      <SimpleGrid
-        columns={2}
-        spacing={10}
-        h={'80rem'}
+      <Flex
+        flexDirection={{ base: "column", lg: "row" }}
+        // columns={2}
+        gap={10}
+        h={{ base: "auto", lg: "80rem" }}
         my={"6rem"}
         // position='relative'
-       
-        
-        minChildWidth={"400px"}
-        
+
+        // minChildWidth={"400px"}
         paddingX={{ base: "9%", lg: "15%" }}
       >
-        <Box p="8"   border={"3px dashed"}>
+        <Flex
+          flexDirection={"column"}
+          justifyContent={"center"}
+          p="8"
+          w={{ base: "100%", lg: "50%" }}
+          border={"3px dashed"}
+        >
           <Box h={"20rem"} w={"20rem"} mx={"auto"}>
             <Image
               alt="wife"
               borderRadius={"50%"}
               h={"100%"}
               w={"100%"}
-              src={wife}
+              src={"https://bit.ly/sage-adebayo"}
             />
           </Box>
-          <Text fontSize={{ base: "24px", md: "30px", lg: "36px" }}>
-            One of the surprising things after the day we met was that we got
-            along pretty quick which I never envisaged." - Iretioluwa
-            Poooooooopoola
-          </Text>
+          {/* <Avatar size={'1.5rem'} name='Segun Adebayo' src='https://bit.ly/sage-adebayo' /> */}
 
-          <Box my={12} h={"10rem"} w={"10rem"} mx={"auto"}>
+          <Box my={12} h={"4rem"} w={"10rem"} mx={"auto"}>
             <Image
               alt="wife"
-              borderRadius={"50%"}
+              borderRadius={"30%"}
               h={"100%"}
               w={"100%"}
-              src={image1}
-              
+              src={logoGold}
             />
           </Box>
 
           <Box h={"20rem"} w={"20rem"} mx={"auto"}>
             <Image borderRadius={"50%"} h={"100%"} w={"100%"} src={wife} />
           </Box>
-        </Box>
+        </Flex>
 
-        <Box p="12" border={"5px solid"} overflowY={'auto'}>
-          <Box>
+        <Box
+          p="12"
+          w={{ base: "100%", lg: "50%" }}
+          border={"none"}
+          h={{ rem: "30rem" }}
+          overflowY={{ lg: "auto" }}
+        >
+          <Box mt={"12"}>
             <Text color={"red"} fontSize="2xl">
-              December 13, 2020{" "}
+              December 13, 2020
             </Text>
             <Text as={"b"} fontSize="xl">
               How we met
@@ -439,15 +470,173 @@ export default function Home() {
               which she called with everybody looking at me.
             </Text>
             <Box h={"40rem"} w="100%" mt="10" mx={"auto"}>
-              <Image h={"100%"} w="100%"  src={wife} alt="" />
-            </Box>
-            <Box h={"40rem"} w="100%" hover={'transform:scale(1.5)'} mt="10" mx={"auto"}>
               <Image h={"100%"} w="100%" src={wife} alt="" />
             </Box>
-            
+          </Box>
+          <Box mt="12">
+            <Text color={"red"} fontSize="2xl">
+              February 23, 2021
+            </Text>
+            <Text as={"b"} fontSize="xl">
+              We fell in Love
+            </Text>
+            <Text>
+              We met each other through a mutual friend on Sunday 13th of
+              December 2020. It was after camp meeting in our local church. I
+              was speaking with a friend after service when my friend just came
+              over to me and said “I have found your wife.” Of course, I laughed
+              over it as prior before then, both of us were trying to be on the
+              lookout for ladies we could be in a relationship with. I just
+              shrugged it off, but he insisted the girl speaks Queen’s English
+              and is befitting for me. Still not sounding convincing enough, he
+              dragged me to where she was sitting and introduced us. “I’m Akin,
+              it’s nice meeting You”, I said and hurriedly looked for an excuse
+              to “avoid” the girl.
+            </Text>
+            <Box h={"40rem"} w="100%" mt="10" mx={"auto"}>
+              <Image h={"100%"} w="100%" src={wife} alt="" />
+            </Box>
+          </Box>
+          <Box mt={"16"}>
+            <Text color={"red"} fontSize="2xl">
+              June 23, 2021
+            </Text>
+            <Text as={"b"} fontSize="xl">
+              Asking her out
+            </Text>
+            <Text>
+              We met each other through a mutual friend on Sunday 13th of
+              December 2020. It was after camp meeting in our local church. I
+              was speaking with a friend after service when my friend just came
+              over to me and said “I have found your wife.” Of course, I laughed
+              over it as prior before then, both of us were trying to be on the
+              lookout for ladies we could be in a relationship with. I just
+            </Text>
+            <Box h={"40rem"} w="100%" mt="10" mx={"auto"}>
+              <Image h={"100%"} w="100%" src={wife} alt="" />
+            </Box>
+          </Box>
+          <Box mt={12}>
+            <Text color={"red"} fontSize="2xl">
+              January 13, 2022
+            </Text>
+            <Text as={"b"} fontSize="2xl">
+              Our Relationship
+            </Text>
+            <Text>
+              We met each other through a mutual friend on Sunday 13th of
+              December 2020. It was after camp meeting in our local church. I
+              was speaking with a friend after service when my friend just came
+              over to me and said “I have found your wife.” Of course, I laughed
+              over it as prior before then, both of us were trying to be on the
+              lookout for ladies we could be in a relationship with. I just
+              shrugged it off, but he insisted the girl speaks Queen’s English
+              and is befitting for me. Still not sounding convincing enough, he
+              dragged me to where she was sitting and introduced us. “I’m Akin,
+              it’s nice meeting You”, I said and hurriedly looked for an excuse
+              to “avoid” the girl. My first impression was that she was going be
+              very proud with her poise and English. Compared to other ladies I
+            </Text>
+            <Box h={"40rem"} w="100%" mt="10" mx={"auto"}>
+              <Image h={"100%"} w="100%" src={wife} alt="" />
+            </Box>
+          </Box>
+          <Box>
+            <Text color={"red"} fontSize="2xl">
+              February 13, 2021
+            </Text>
+            <Text as={"b"} fontSize="xl">
+              Our Proposal
+            </Text>
+            <Text>
+              We met each other through a mutual friend on Sunday 13th of
+              December 2020. It was after camp meeting in our local church. I
+              was speaking with a friend after service when my friend just came
+              over to me and said “I have found your wife.” Of course, I laughed
+              over it as prior before then, both of us were trying to be on the
+              lookout for ladies we could be in a relationship with. I just
+              shrugged it off, but he insisted the girl speaks Queen’s English
+              and is befitting for me. Still not sounding convincing enough, he
+              after the bus was about to move, I requested for her phone number
+              which she called with everybody looking at me.
+            </Text>
+            <Box h={"40rem"} w="100%" mt="10" mx={"auto"}>
+              <Image h={"100%"} w="100%" src={wife} alt="" />
+            </Box>
+          </Box>
+          <Box>
+            <Text color={"red"} fontSize="2xl">
+              September 13, 2021
+            </Text>
+            <Text as={"b"} fontSize="xl">
+              We are getting Married
+            </Text>
+            <Text>
+              We met each other through a mutual friend on Sunday 13th of
+              December 2020. It was after camp meeting in our local church. I
+              was speaking with a friend after service when my friend just came
+              over to me and said “I have found your wife.” Of course, I laughed
+              over it as prior before then, both of us were trying to be on the
+              lookout for ladies we could be in a relationship with. I just
+              shrugged it off, but he insisted the girl speaks Queen’s English
+            </Text>
+            <Box h={"40rem"} w="100%" mt="10" mx={"auto"}>
+              <Image
+                h={"100%"}
+                w="100%"
+                // transition={"0.3s ease-in"}
+                src={wife}
+                alt=""
+              />
+            </Box>
           </Box>
         </Box>
-      </SimpleGrid>
+      </Flex>
+
+      <Box w={"100%"}>
+        <Center fontSize="4rem" as={"b"}>
+          Our Best Friends
+        </Center>
+        <Center fontSize={"1.5rem"}>
+          "True friendship takes us by hand and reminds us that we are never
+          alone on the journey"
+        </Center>
+
+        <Tabs px="6%">
+          <TabList>
+            <Tab>All</Tab>
+
+            <Tab>GroomsMen</Tab>
+
+            <Tab>BridesMaid</Tab>
+          </TabList>
+
+          <TabPanels>
+            <TabPanel>
+              <Box>
+                <Card data={cardItems} />
+              </Box>
+            </TabPanel>
+            <TabPanel>
+              <Box>
+                <Card data={GroomsMen} />
+              </Box>
+            </TabPanel>
+            <TabPanel>
+              <Box>
+                <Card data={bridesmaids} />
+              </Box>
+            </TabPanel>
+          </TabPanels>
+        </Tabs>
+      </Box>
+
+      <Box>
+        <Center fontSize="4rem" mt={12} as={"b"}>
+          Captured Moments
+        </Center>
+        {/* <SlideFadeEx/> */}
+      </Box>
     </OuterLayout>
   );
 }
