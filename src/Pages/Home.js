@@ -3,7 +3,9 @@ import Seo from "../Utils/Seo";
 import OuterLayout from "../Layouts/Index";
 import Card from "../Components/Card";
 import logoGold from "../asset/logoGold.png";
-import { SlideFadeEx } from "../Components/TransitionsMo";
+import invite from "../asset/InvitationCard.jpeg";
+import PlacementExample from "../Components/MomentsDrawer";
+import SlideFadeEx from "../Components/MomentsDrawer";
 import {
   Box,
   Container,
@@ -274,7 +276,7 @@ export default function Home() {
           textAlign={"center"}
         >
           <Button w={["100%", "auto"]} mt={["10px", "0"]}>
-            Get E-invite
+          <a href={invite}>Get E-Invite</a>
           </Button>
         </Flex>
       </Box>
@@ -403,7 +405,7 @@ export default function Home() {
           justifyContent={"center"}
           p="8"
           w={{ base: "100%", lg: "50%" }}
-          border={"3px dashed"}
+          border={"3px dashed"} borderColor={"orange.orange500"}
         >
           <Box h={"20rem"} w={"20rem"} mx={"auto"}>
             <Image
@@ -632,10 +634,19 @@ export default function Home() {
       </Box>
 
       <Box>
+
+      </Box>
+
+      <Box>
         <Center fontSize="4rem" mt={12} as={"b"}>
           Captured Moments
         </Center>
-        {/* <SlideFadeEx/> */}
+
+        <Box px={'20%'}>
+
+        <SlideFadeEx/>
+        </Box>
+        
       </Box>
     </OuterLayout>
   );

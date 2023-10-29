@@ -22,9 +22,9 @@ const Card = ({ data }) => {
                 position={"absolute"}
                 top={0}
                 right={0}
-                fontSize={"xl"}
+                fontSize={"1.1rem"}
                 p={2}
-                bg={"magenta"}
+                bg={"orange.orange500"} fontWeight={500} color={"white"}
               >
                 {card.category}
               </Text>
@@ -32,7 +32,7 @@ const Card = ({ data }) => {
               <Image h={"20rem"} w={"100%"} src={card.photo} />
             </Box>
             <Box p="4">
-              <Text fontSize={"3xl"} color={"black"}>
+              <Text fontSize={"1.5rem"} fontWeight={500}  color={ "orange.orange500" }>
                 {card.Name}
               </Text>
               <Text>{card.summary}</Text>

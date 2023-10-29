@@ -15,15 +15,15 @@ const WeddingInfocard = () => {
     >
       {infoCard.map((item,Index)=>
       (
-        <Box p={12} key={Index} w={"20rem"} bg={'grey'}>
-          <Text fontSize={'2rem'}>{"Engagement"}</Text>
+        <Box p={12} key={Index} w={"20rem"} boxShadow={'41px 32px 15px -11px rgba(58,8,0,0.1)'}>
+          <Text fontSize={'2rem'}>{item.event}</Text>
           <Flex alignItems={'center'} mt={4} gap={4}>
             <CiLocationOn size={'2rem'}  />
-            <Text>{"address"}</Text>
+            <Text>{item.location}</Text>
           </Flex>
           <Flex alignItems={'center'} mt={4} gap={4}>
             <AiOutlineFieldTime size={'2rem'} />
-            <Text>{"address"}</Text>
+            <Text>{item.time}</Text>
           </Flex>
         </Box>
       )

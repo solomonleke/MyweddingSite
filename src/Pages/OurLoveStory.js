@@ -10,14 +10,13 @@ import {
   AccordionIcon,
   AccordionPanel,
   Accordion,
-  Center,
+  // Center,
   AspectRatio,
 } from "@chakra-ui/react";
 import Seo from "../Utils/Seo";
 import loveImg from "../asset/image2.jpg";
 
 const OurLoveStory = () => {
- 
   return (
     <OuterLayout>
       <Seo title="Our Love Story" description="OurLoveStory" />
@@ -37,9 +36,10 @@ const OurLoveStory = () => {
         >
           <Box w={["90%", "80%", "70%", "60%", "60%"]} color="#fff">
             <Text
+              mt={12}
               fontSize={["50px", "48px", "60px", "60px", "75px"]}
               lineHeight={["55px", "60px", "60px", "80px", "80px"]}
-              fontWeight={"700"}
+              fontWeight={"1"}
             >
               Our Love Story
             </Text>
@@ -249,16 +249,14 @@ const OurLoveStory = () => {
             </AccordionItem>
           </Accordion>
         </Box>
-        
-          
-          <AspectRatio maxW="60rem" mt={12} mx={'auto'} ratio={1}>
-            <iframe
-              title="Our Story Video"
-              src="https://www.youtube.com/watch?v=lWA2pjMjpBs&list=RDlWA2pjMjpBs&start_radio=1&rv=tg00YEETFzg"
-              allowFullScreen
-            />
-          </AspectRatio>
-        
+
+        <AspectRatio maxW="60rem" maxH={"40rem"} mt={12} mx={"auto"} ratio={1}>
+          <iframe
+            title="Our Story Video"
+            src="https://www.youtube.com/watch?v=lWA2pjMjpBs&list=RDlWA2pjMjpBs&start_radio=1&rv=tg00YEETFzg"
+            allowFullScreen
+          />
+        </AspectRatio>
       </Box>
     </OuterLayout>
   );

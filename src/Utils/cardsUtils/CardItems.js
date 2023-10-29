@@ -1,9 +1,9 @@
 export const cardItems = [
   {
-    Name: "Oloba Django",
+    Name: "OLOBA DJANGO",
     photo: "https://bit.ly/dan-abramov",
     summary: "whats happening here",
-    category: "GroomsMen",
+    category: "GROOMSMAN",
     story: `About the Bride (Olabisi):
     Sis Olabisi, the beautiful lady with the charmingly tiny voice, has always been a picture of grace and elegance. She’s the kind of person you instantly notice in church, and her calm and collected nature is truly admirable. Thank you, Olabisi, for your initial “shakara” before saying yes to my wonderful egbon (brother).
     
@@ -20,10 +20,10 @@ export const cardItems = [
     As they embark on this journey as a married couple, I offer my heartfelt congratulations to Sis Olabisi and Mr. Akin. I look forward with great anticipation to the amazing things that GOD will continue to do in the lives of this power couple and the beautiful family that’s about to be born. It only gets better from here.`,
   },
   {
-    Name: "Kolade",
+    Name: "KOLADE",
     photo: "https://bit.ly/kent-c-dodds",
     summary: "pray to God abeg",
-    category: "Bridesmaid",
+    category: "BRIDESMAID",
     story: `About the Bride (Olabisi):
     Sis Olabisi, the beautiful lady with the charmingly tiny voice, has always been a picture of grace and elegance. She’s the kind of person you instantly notice in church, and her calm and collected nature is truly admirable. Thank you, Olabisi, for your initial “shakara” before saying yes to my wonderful egbon (brother).
     
@@ -40,10 +40,10 @@ export const cardItems = [
     As they embark on this journey as a married couple, I offer my heartfelt congratulations to Sis Olabisi and Mr. Akin. I look forward with great anticipation to the amazing things that GOD will continue to do in the lives of this power couple and the beautiful family that’s about to be born. It only gets better from here.`,
   },
   {
-    Name: "Black",
+    Name: "BLACK",
     photo: "https://bit.ly/code-beast",
     summary: "what are you doing",
-    category: "GroomsMen",
+    category: "GROOMSMAN",
     story: `About the Bride (Olabisi):
     Sis Olabisi, the beautiful lady with the charmingly tiny voice, has always been a picture of grace and elegance. She’s the kind of person you instantly notice in church, and her calm and collected nature is truly admirable. Thank you, Olabisi, for your initial “shakara” before saying yes to my wonderful egbon (brother).
     
@@ -60,10 +60,10 @@ export const cardItems = [
     As they embark on this journey as a married couple, I offer my heartfelt congratulations to Sis Olabisi and Mr. Akin. I look forward with great anticipation to the amazing things that GOD will continue to do in the lives of this power couple and the beautiful family that’s about to be born. It only gets better from here.`,
   },
   {
-    Name: "Wire Wire",
+    Name: "MAKINDE",
     photo: "https://bit.ly/sage-adebayo",
     summary: "epele sir ",
-    category: "Bridesmaid",
+    category: "BRIDESMAID",
     story: `About the Bride (Olabisi):
     Sis Olabisi, the beautiful lady with the charmingly tiny voice, has always been a picture of grace and elegance. She’s the kind of person you instantly notice in church, and her calm and collected nature is truly admirable. Thank you, Olabisi, for your initial “shakara” before saying yes to my wonderful egbon (brother).
     
