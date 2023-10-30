@@ -18,6 +18,7 @@ export default function IndexRoutes() {
             <Route path='/faqs' element={<Faq/>}/>
             <Route path='/gift-us' element={<GiftUs/>}/>
             <Route path='/wedding-info' element={<WeddingInfo/>}/>
+
         </Routes>
     </BrowserRouter>
   )

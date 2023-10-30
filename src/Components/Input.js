@@ -115,7 +115,7 @@ import {
           )}
         </InputGroup>
         {helper && (
-          <FormHelperText pos={'absolute'} p={1} m="0" fontSize={'10px'}>
+          <FormHelperText pos={'absolute'} p={1} m="0" fontSize={'13px'}>
             {helper}
           </FormHelperText>
         )}
