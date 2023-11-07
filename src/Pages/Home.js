@@ -84,9 +84,11 @@ export default function Home() {
     };
   }, []);
 
-  const GroomsMen = cardItems.filter((item) => item.category === "Bridesmaid");
+  const bridesmaids = cardItems.filter(
+    (item) => item.category === "BRIDESMAID"
+  );
 
-  const bridesmaids = cardItems.filter((item) => item.category === "GroomsMen");
+  const GroomsMen = cardItems.filter((item) => item.category === "GROOMSMAN");
 
   return (
     <OuterLayout>
@@ -276,13 +278,12 @@ export default function Home() {
           textAlign={"center"}
         >
           <Button w={["100%", "auto"]} mt={["10px", "0"]}>
-          <a href={invite}>Get E-Invite</a>
+            <a href={invite}>Get E-Invite</a>
           </Button>
         </Flex>
       </Box>
       <Box mt="32px" bg="orange.orange500" p="1.5em">
         <Text color="#fff" fontSize="24px" fontWeight="600" textAlign="center">
-          {" "}
           Live Stream
         </Text>
         <Text
@@ -364,11 +365,11 @@ export default function Home() {
       </Flex>
 
       <Text
-        mt={"32px"}
+        mt={"10rem"}
         textAlign={"center"}
-        fontSize={"2em"}
+        fontSize={"4rem"}
         px={"6%"}
-        textTransform={"uppercase"}
+        // textTransform={"uppercase"}
         fontWeight={"600"}
         lineHeight={"1em"}
         color={"#121f38"}
@@ -382,7 +383,7 @@ export default function Home() {
       >
         <Box w={["90%", "80%", "60%", "50%", "50%"]} color="#595e5e">
           <Text fontSize={["1em", "1em", "1.1em", "1.2em", "1em"]} mt="22px">
-            {" "}
+            
             "One of the surprising things after the day we met was that we got
             along pretty quick which I never envisaged." - Iretioluwa Popoola
           </Text>
@@ -392,22 +393,23 @@ export default function Home() {
       <Flex
         flexDirection={{ base: "column", lg: "row" }}
         // columns={2}
-        gap={10}
-        h={{ base: "auto", lg: "80rem" }}
-        my={"6rem"}
+        gap={"10%"}
+        h={{ base: "auto", lg: "55rem" }}
+        my={"2rem"}
         // position='relative'
 
         // minChildWidth={"400px"}
-        paddingX={{ base: "9%", lg: "15%" }}
+        paddingX={{ base: "9%", lg: "16%" }}
       >
         <Flex
           flexDirection={"column"}
           justifyContent={"center"}
           p="8"
-          w={{ base: "100%", lg: "50%" }}
-          border={"3px dashed"} borderColor={"orange.orange500"}
+          w={{ base: "100%", lg: "40%" }}
+          border={"2px dashed"}
+          borderColor={"orange.orange500"}
         >
-          <Box h={"20rem"} w={"20rem"} mx={"auto"}>
+          <Box h={"20rem"} position={'relative'} w={"20rem"} mx={"auto"}>
             <Image
               alt="wife"
               borderRadius={"50%"}
@@ -415,6 +417,19 @@ export default function Home() {
               w={"100%"}
               src={"https://bit.ly/sage-adebayo"}
             />
+           <Box
+                position={"absolute"}
+                bottom={-5}
+                right={'31.8%'}
+                fontSize={"1.1rem"}
+                py={2}
+                w={'33.3%'}
+               
+                // rounded={'1rem'}
+                bg={"orange.orange500"} fontWeight={500} color={"white"}
+              >
+               <Center> Solomon</Center>
+              </Box>
           </Box>
           {/* <Avatar size={'1.5rem'} name='Segun Adebayo' src='https://bit.ly/sage-adebayo' /> */}
 
@@ -428,26 +443,48 @@ export default function Home() {
             />
           </Box>
 
-          <Box h={"20rem"} w={"20rem"} mx={"auto"}>
-            <Image borderRadius={"50%"} h={"100%"} w={"100%"} src={wife} />
+          <Box h={"20rem"} position={'relative'} w={"20rem"} mx={"auto"}>
+            <Image borderRadius={"50%"} h={"100%"} w={"100%"} src={"https://bit.ly/sage-adebayo"} />
+            <Box
+                position={"absolute"}
+                bottom={-5}
+                right={'31.8%'}
+                fontSize={"1.1rem"}
+                py={2}
+                w={'33.3%'}
+                // rounded={'1rem'}
+                bg={"orange.orange500"} fontWeight={500} color={"white"}
+              >
+               <Center> Peace</Center>
+              </Box>
           </Box>
         </Flex>
 
         <Box
-          p="12"
-          w={{ base: "100%", lg: "50%" }}
+          p="8"
+          w={{ base: "100%", lg: "55%" }}
           border={"none"}
           h={{ rem: "30rem" }}
+          // my={"1rem"}
           overflowY={{ lg: "auto" }}
+          css={{
+            // Hide scrollbars for webkit-based browsers (Chrome, Safari)
+            "::-webkit-scrollbar": {
+              width: "0.01em", // Set the width to a very small value
+            },
+            "::-webkit-scrollbar-thumb": {
+              background: "transparent", // Set the background to transparent
+            },
+          }}
         >
-          <Box mt={"12"}>
-            <Text color={"red"} fontSize="2xl">
+          <Box mt={8} p={8} _hover={{ bg: "rgba(142,145,145,0.1)" }}>
+            <Text color={"orange.orange500"} fontWeight={500} fontSize="1.3rem">
               December 13, 2020
             </Text>
-            <Text as={"b"} fontSize="xl">
+            <Text as={"b"} my={"1rem"} fontSize="2rem">
               How we met
             </Text>
-            <Text>
+            <Text mb={"2rem"} mt={"1rem"} fontSize={"1.2rem"} color={"grey"}>
               We met each other through a mutual friend on Sunday 13th of
               December 2020. It was after camp meeting in our local church. I
               was speaking with a friend after service when my friend just came
@@ -472,17 +509,26 @@ export default function Home() {
               which she called with everybody looking at me.
             </Text>
             <Box h={"40rem"} w="100%" mt="10" mx={"auto"}>
-              <Image h={"100%"} w="100%" src={wife} alt="" />
+              <Image
+                _hover={{
+                  transform: "scale(1.1)",
+                  transition: "transform 1s ease",
+                }}
+                h={"100%"}
+                w="100%"
+                src={wife}
+                alt=""
+              />
             </Box>
           </Box>
-          <Box mt="12">
-            <Text color={"red"} fontSize="2xl">
+          <Box mt={8} p={8} _hover={{ bg: "rgba(142,145,145,0.1)" }}>
+            <Text color={"orange.orange500"} fontWeight={500} fontSize="1.3rem">
               February 23, 2021
             </Text>
-            <Text as={"b"} fontSize="xl">
+            <Text as={"b"} my={"1rem"} fontSize="2rem">
               We fell in Love
             </Text>
-            <Text>
+            <Text mb={"2rem"} mt={"1rem"} fontSize={"1.2rem"} color={"grey"}>
               We met each other through a mutual friend on Sunday 13th of
               December 2020. It was after camp meeting in our local church. I
               was speaking with a friend after service when my friend just came
@@ -496,17 +542,26 @@ export default function Home() {
               to “avoid” the girl.
             </Text>
             <Box h={"40rem"} w="100%" mt="10" mx={"auto"}>
-              <Image h={"100%"} w="100%" src={wife} alt="" />
+              <Image
+                _hover={{
+                  transform: "scale(1.1)",
+                  transition: "transform 1s ease",
+                }}
+                h={"100%"}
+                w="100%"
+                src={wife}
+                alt=""
+              />
             </Box>
           </Box>
-          <Box mt={"16"}>
-            <Text color={"red"} fontSize="2xl">
+          <Box mt={8} p={8} _hover={{ bg: "rgba(142,145,145,0.1)" }}>
+            <Text color={"orange.orange500"} fontWeight={500} fontSize="1.3rem">
               June 23, 2021
             </Text>
-            <Text as={"b"} fontSize="xl">
+            <Text as={"b"} my={"1rem"} fontSize="2rem">
               Asking her out
             </Text>
-            <Text>
+            <Text mb={"2rem"} mt={"1rem"} fontSize={"1.2rem"} color={"grey"}>
               We met each other through a mutual friend on Sunday 13th of
               December 2020. It was after camp meeting in our local church. I
               was speaking with a friend after service when my friend just came
@@ -515,17 +570,26 @@ export default function Home() {
               lookout for ladies we could be in a relationship with. I just
             </Text>
             <Box h={"40rem"} w="100%" mt="10" mx={"auto"}>
-              <Image h={"100%"} w="100%" src={wife} alt="" />
+              <Image
+                _hover={{
+                  transform: "scale(1.1)",
+                  transition: "transform 1s ease",
+                }}
+                h={"100%"}
+                w="100%"
+                src={wife}
+                alt=""
+              />
             </Box>
           </Box>
-          <Box mt={12}>
-            <Text color={"red"} fontSize="2xl">
+          <Box mt={8} p={8} _hover={{ bg: "rgba(142,145,145,0.1)" }}>
+            <Text color={"orange.orange500"} fontWeight={500} fontSize="1.3rem">
               January 13, 2022
             </Text>
-            <Text as={"b"} fontSize="2xl">
+            <Text as={"b"} my={"1rem"} fontSize="2rem">
               Our Relationship
             </Text>
-            <Text>
+            <Text mb={"2rem"} mt={"1rem"} fontSize={"1.2rem"} color={"grey"}>
               We met each other through a mutual friend on Sunday 13th of
               December 2020. It was after camp meeting in our local church. I
               was speaking with a friend after service when my friend just came
@@ -540,17 +604,26 @@ export default function Home() {
               very proud with her poise and English. Compared to other ladies I
             </Text>
             <Box h={"40rem"} w="100%" mt="10" mx={"auto"}>
-              <Image h={"100%"} w="100%" src={wife} alt="" />
+              <Image
+                _hover={{
+                  transform: "scale(1.1)",
+                  transition: "transform 1s ease",
+                }}
+                h={"100%"}
+                w="100%"
+                src={wife}
+                alt=""
+              />
             </Box>
           </Box>
-          <Box>
-            <Text color={"red"} fontSize="2xl">
+          <Box mt={8} p={8} _hover={{ bg: "rgba(142,145,145,0.1)" }}>
+            <Text color={"orange.orange500"} fontWeight={500} fontSize="1.3rem">
               February 13, 2021
             </Text>
-            <Text as={"b"} fontSize="xl">
+            <Text as={"b"} my={"1rem"} fontSize="2rem">
               Our Proposal
             </Text>
-            <Text>
+            <Text mb={"2rem"} mt={"1rem"} fontSize={"1.2rem"} color={"grey"}>
               We met each other through a mutual friend on Sunday 13th of
               December 2020. It was after camp meeting in our local church. I
               was speaking with a friend after service when my friend just came
@@ -563,17 +636,31 @@ export default function Home() {
               which she called with everybody looking at me.
             </Text>
             <Box h={"40rem"} w="100%" mt="10" mx={"auto"}>
-              <Image h={"100%"} w="100%" src={wife} alt="" />
+              <Image
+                _hover={{
+                  transform: "scale(1.1)",
+                  transition: "transform 1s ease",
+                }}
+                h={"100%"}
+                w="100%"
+                src={wife}
+                alt=""
+              />
             </Box>
           </Box>
-          <Box>
-            <Text color={"red"} fontSize="2xl">
+          <Box mt={8} p={8} _hover={{ bg: "rgba(142,145,145,0.1)" }}>
+            <Text
+              color={"orange.orange500"}
+              mb={"0.5rem"}
+              fontWeight={500}
+              fontSize="1.3rem"
+            >
               September 13, 2021
             </Text>
-            <Text as={"b"} fontSize="xl">
+            <Text as={"b"} my={"1rem"} fontSize="2rem">
               We are getting Married
             </Text>
-            <Text>
+            <Text mb={"2rem"} mt={"1rem"} fontSize={"1.2rem"} color={"grey"}>
               We met each other through a mutual friend on Sunday 13th of
               December 2020. It was after camp meeting in our local church. I
               was speaking with a friend after service when my friend just came
@@ -584,9 +671,13 @@ export default function Home() {
             </Text>
             <Box h={"40rem"} w="100%" mt="10" mx={"auto"}>
               <Image
+                _hover={{
+                  transform: "scale(1.1)",
+                  transition: "transform 1s ease",
+                }}
                 h={"100%"}
                 w="100%"
-                // transition={"0.3s ease-in"}
+                
                 src={wife}
                 alt=""
               />
@@ -595,7 +686,7 @@ export default function Home() {
         </Box>
       </Flex>
 
-      <Box w={"100%"}>
+      <Box w={"100%"} mt={"10rem"}>
         <Center fontSize="4rem" as={"b"}>
           Our Best Friends
         </Center>
@@ -604,7 +695,7 @@ export default function Home() {
           alone on the journey"
         </Center>
 
-        <Tabs px="6%">
+        <Tabs px="6%" mt={"5rem"}>
           <TabList>
             <Tab>All</Tab>
 
@@ -633,20 +724,16 @@ export default function Home() {
         </Tabs>
       </Box>
 
-      <Box>
+      <Box></Box>
 
-      </Box>
-
-      <Box>
-        <Center fontSize="4rem" mt={12} as={"b"}>
+      <Box mt={"10rem"}>
+        <Center fontSize="4rem" as={"b"}>
           Captured Moments
         </Center>
 
-        <Box px={'20%'}>
-
-        <SlideFadeEx/>
+        <Box px={"10%"}>
+          <SlideFadeEx />
         </Box>
-        
       </Box>
     </OuterLayout>
   );

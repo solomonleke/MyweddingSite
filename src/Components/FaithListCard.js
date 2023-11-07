@@ -12,16 +12,16 @@ const FaithListCard = () => {
       </Box>
       <Flex wrap={"wrap"} gap={8} justifyContent={"center"} >
         {faithListCard.map((item, Index) => (
-          <Box key={Index} minWidth={"10rem"} boxShadow={'41px 32px 15px -11px rgba(58,8,0,0.1)'} borderRadius={12} maxWidth={"20rem"} >
+          <Box key={Index} minWidth={"10rem"} boxShadow={'13px 17px 15px -3px rgba(0,0,0,0.1)'} borderRadius={12} maxWidth={"20rem"} >
             <Box borderRadius={4}>
               <Image w={"100%"} h={"100%"} src={item.itemImg} />
             </Box>
-            <Box px={2} >
-            <Flex justify={"space-between"} py={4}>
-              <Center fontSize={'1.5rem'}>{item.itemName}</Center>
-              <Text fontSize={'1.1rem'}>{item.Price}</Text>
+            <Box px={4} >
+            <Flex justify={"space-between"} alignItems={'center'} py={4}>
+              <Center fontSize={'1.7rem'} color={ "orange.orange500"} >{item.itemName}</Center>
+              <Text  color='blue.500' fontSize={'1.3rem'}>{item.itemPrice}</Text>
             </Flex>
-            <Text pb={8} fontSize={'1.3rem'}>{item.itemDesc}</Text>
+            <Text pb={8}  color='grey' fontSize={'1.1rem'}>{item.itemDesc}</Text>
             </Box>
           </Box>
         ))}

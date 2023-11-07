@@ -16,7 +16,7 @@ const Card = ({ data }) => {
     <>
       <Flex justify={"center"} gap={"5"} wrap="wrap" w={"100%"}>
         {data.map((card, Index) => (
-          <Box mt={5} w={"20rem"} key={Index} onClick={() => HandleClick(card)}>
+          <Box mt={5} w={"20rem"} key={Index} boxShadow={'13px 17px 15px -3px rgba(0,0,0,0.1)'} onClick={() => HandleClick(card)}>
             <Box w={"100%"} position={"relative"} h={"20rem"}>
               <Text
                 position={"absolute"}

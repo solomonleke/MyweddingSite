@@ -51,7 +51,10 @@ const OurLoveStory = () => {
           <Accordion allowToggle>
             <AccordionItem>
               <h2>
-                <AccordionButton _expanded={{ color: "orange.orange500" }}>
+                <AccordionButton
+                  _expanded={{ color: "orange.orange500" }}
+                  _hover={{ color: "red" }}
+                >
                   <Box
                     as="span"
                     flex="1"
@@ -59,7 +62,7 @@ const OurLoveStory = () => {
                     fontWeight={"700"}
                     textAlign="left"
                   >
-                    Solomon's View
+                    Peace's View
                   </Box>
                   <AccordionIcon />
                 </AccordionButton>
@@ -74,7 +77,10 @@ const OurLoveStory = () => {
 
             <AccordionItem>
               <h2>
-                <AccordionButton _expanded={{ color: "orange.orange500" }}>
+                <AccordionButton
+                  _expanded={{ color: "orange.orange500" }}
+                  _hover={{ color: "red" }}
+                >
                   <Box
                     as="span"
                     flex="1"
@@ -96,7 +102,10 @@ const OurLoveStory = () => {
             </AccordionItem>
             <AccordionItem>
               <h2>
-                <AccordionButton _expanded={{ color: "orange.orange500" }}>
+                <AccordionButton
+                  _expanded={{ color: "orange.orange500" }}
+                  _hover={{ color: "orange.orange500" }}
+                >
                   <Box
                     as="span"
                     flex="1"
@@ -250,13 +259,13 @@ const OurLoveStory = () => {
           </Accordion>
         </Box>
 
-        <AspectRatio maxW="60rem" maxH={"40rem"} mt={12} mx={"auto"} ratio={1}>
+        {/* <AspectRatio maxW="60rem" maxH={"40rem"} mt={12} mx={"auto"} ratio={1}>
           <iframe
             title="Our Story Video"
             src="https://www.youtube.com/watch?v=lWA2pjMjpBs&list=RDlWA2pjMjpBs&start_radio=1&rv=tg00YEETFzg"
             allowFullScreen
           />
-        </AspectRatio>
+        </AspectRatio> */}
       </Box>
     </OuterLayout>
   );

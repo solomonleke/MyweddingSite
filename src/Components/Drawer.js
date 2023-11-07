@@ -2,10 +2,26 @@ import {Drawer,Button,DrawerOverlay,DrawerContent,DrawerCloseButton,DrawerHeader
 
 import React from "react"
 import { useRef } from "react"
+import Ourfriends from "../Pages/OurFriendsExpanded/Ourfriends"
+import { useNavigate } from "react-router-dom"
+import { useDispatch } from "react-redux"
 
 export function CardDrawer({ isOpen, onOpen, onClose,singleData }) {
     
     const btnRef = useRef()
+
+    const nav= useNavigate()
+    const dispatch=useDispatch()
+
+    const HandleClick=(friendData)=>{
+      console.log('friendData',friendData)
+      nav(`/Ourfriend/${friendData.Name}`)
+      dispatch({type: 'SINGLEDATA', payload: {data: friendData} })
+
+      // localStorage.setItem('friendData',JSON.stringify(friendData))
+      
+
+    }
   
     return (
       <>
@@ -18,11 +34,11 @@ export function CardDrawer({ isOpen, onOpen, onClose,singleData }) {
         >
           <DrawerOverlay />
           <DrawerContent >
-            <DrawerCloseButton />
+            {/* <DrawerCloseButton /> */}
             {/* <DrawerHeader>Create your account</DrawerHeader> */}
 
   
-            <DrawerBody bg={'red'} >
+            <DrawerBody onClick={()=>HandleClick(singleData)} >
               <Box mt={8} bg={'green'}  w={'100%'} h={'30rem'}>
               <Image h={"100%"} w={"100%"} src={singleData.photo} />
               </Box>
