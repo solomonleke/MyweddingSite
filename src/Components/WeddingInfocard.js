@@ -1,7 +1,7 @@
-import { Box, Flex, Text } from "@chakra-ui/react";
+import { Box, Center, Flex, Text } from "@chakra-ui/react";
 import React from "react";
 
-import {CiLocationOn} from 'react-icons/ci'
+import {SlCalender} from 'react-icons/sl'
 
 import { AiOutlineFieldTime } from "react-icons/ai";
 import { infoCard } from "../Utils/cardsUtils/infoCard";
@@ -16,15 +16,20 @@ const WeddingInfocard = () => {
       {infoCard.map((item,Index)=>
       (
         <Box p={12} key={Index} w={"20rem"} boxShadow={'41px 32px 15px -11px rgba(58,8,0,0.1)'}>
-          <Text fontSize={'2rem'}>{item.event}</Text>
+          <Center fontSize={'2rem'}>{item.event}</Center>
           <Flex alignItems={'center'} mt={4} gap={4}>
-            <CiLocationOn size={'2rem'}  />
+            {/* <Box h={'2rem'} flex={'1'} w={'2rem'}><CiLocationOn size={'100%'}  /></Box> */}
             <Text>{item.location}</Text>
           </Flex>
           <Flex alignItems={'center'} mt={4} gap={4}>
             <AiOutlineFieldTime size={'2rem'} />
             <Text>{item.time}</Text>
           </Flex>
+          <Flex alignItems={'center'} mt={4} gap={4}>
+            <SlCalender size={'2rem'} />
+            <Text>{item.date}</Text>
+          </Flex>
+          
         </Box>
       )
       )}

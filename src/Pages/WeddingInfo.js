@@ -43,7 +43,7 @@ const WeddingInfo = () => {
         Save the Date
       </Center>
       <Center fontSize={"1rem"} color={"grey"}>
-        Saturday, 30th September 2023
+        Saturday, 10th February 2024
       </Center>
       <Flex justifyContent={"center"} mt={12}>
         <Button w="auto">

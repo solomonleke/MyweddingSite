@@ -4,12 +4,12 @@ import { bankCardItems } from "../Utils/cardsUtils/bankCardItems";
 
 const BankCard = () => {
   return (
-    <Box>
+    <Box >
       <Center fontSize={'3rem'} color={ "orange.orange500"} mt={20}>Our Bank Details</Center>
 
       <Flex wrap={"wrap"} gap={8} justifyContent={"center"}>
         {bankCardItems.map((item, Index) => (
-          <Box key={Index} minWidth={"10rem"}  maxWidth={"20rem"} p={8}>
+          <Box key={Index} minWidth={"10rem"} boxShadow={'13px 17px 15px -3px rgba(0,0,0,0.1)'}  maxWidth={"20rem"} p={8}>
             <Flex justifyContent={"center"} w={"10rem"}>
               <Image  src={item.logo} />
             </Flex>

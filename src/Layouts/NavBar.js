@@ -56,7 +56,7 @@ export default function NavBar() {
     },
   ];
 
-  const nav = useNavigate();
+  // const nav = useNavigate();
   return (
     <Flex
       py="12px"

@@ -1,19 +1,21 @@
 export const infoCard = [
   {
     event: "Engagement",
-    location: `Adolak International Hotels.Opposite Ayebaju Int'l Market. Gbogan/Ibadan Expressway. Osogbo, Osun State`,
-    time: "8:30 a.m",
+    location: `Ogunbanjo Hall, OAU Campus,Ile Ife, Osun State`,
+    time: "1:00 a.m",
+    date:'9th Feb,2024'
   },
   {
-    event: "Church joining",
-    location: `God's Heritage Of Faith Church.
-  Off Olaiya Bridge. Opposite Osogbo Microfinance Bank. MDS Area. Osogbo`,
-    time: "12:00 p.m",
+    event: "Church",
+    location: `Christ Apostolic Church Mount Bethel Ede road,Ile-Ife`,
+    time: "10:00 a.m",
+    date:'10th Feb,2024'
   },
   {
     event: "Reception",
-    location: `Adolak International Hotels, Opposite Ayebaju Int'l Market. Gbogan/Ibadan Expressway. Osogbo, Osun State
+    location: `Ogunbanjo Hall, OAU Campus,Ile Ife, Osun State
     Note: Reception is strictly by access`,
     time: "2:00 p.m",
+    date:'10th Feb,2024'
   },
 ];

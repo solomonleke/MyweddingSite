@@ -24,6 +24,7 @@ export const cardItems = [
     photo: "https://bit.ly/kent-c-dodds",
     summary: "pray to God abeg",
     category: "BRIDESMAID",
+    link:"www.facebook.com",
     story: `About the Bride (Olabisi):
     Sis Olabisi, the beautiful lady with the charmingly tiny voice, has always been a picture of grace and elegance. She’s the kind of person you instantly notice in church, and her calm and collected nature is truly admirable. Thank you, Olabisi, for your initial “shakara” before saying yes to my wonderful egbon (brother).
     
@@ -44,6 +45,7 @@ export const cardItems = [
     photo: "https://bit.ly/code-beast",
     summary: "what are you doing",
     category: "GROOMSMAN",
+    link:"www.facebook.com",
     story: `About the Bride (Olabisi):
     Sis Olabisi, the beautiful lady with the charmingly tiny voice, has always been a picture of grace and elegance. She’s the kind of person you instantly notice in church, and her calm and collected nature is truly admirable. Thank you, Olabisi, for your initial “shakara” before saying yes to my wonderful egbon (brother).
     
@@ -64,6 +66,7 @@ export const cardItems = [
     photo: "https://bit.ly/sage-adebayo",
     summary: "epele sir ",
     category: "BRIDESMAID",
+    link:"www.facebook.com",
     story: `About the Bride (Olabisi):
     Sis Olabisi, the beautiful lady with the charmingly tiny voice, has always been a picture of grace and elegance. She’s the kind of person you instantly notice in church, and her calm and collected nature is truly admirable. Thank you, Olabisi, for your initial “shakara” before saying yes to my wonderful egbon (brother).
     

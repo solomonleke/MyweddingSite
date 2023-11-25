@@ -37,7 +37,7 @@ const GiftUs = () => {
           </Box>
         </Flex>
       </Box>
-      <Box px={{ base: "5%", lg: "20%" }} mt={12}>
+      <Box px={{ base: "5%",md:'10%', lg: "15%" }} mt={12}>
         <AspectRatio maxW="60rem" mx={"auto"} maxH={"40rem"}>
           <Image h={"100%"} w={"100%"} src="https://bit.ly/dan-abramov" />
         </AspectRatio>
