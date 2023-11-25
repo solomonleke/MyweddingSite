@@ -1,6 +1,7 @@
 import { Box, SlideFade,Flex,Text,bgImage, Center } from "@chakra-ui/react";
 import React, { useState } from "react";
 import picture from '../asset/image3.jpg'
+import moment from '../asset/moment1.jpg'
 
 function SlideFadeEx() {
   const [isHovered1, setIsHovered1] = useState(false);
@@ -8,14 +9,14 @@ function SlideFadeEx() {
   const [isHovered3, setIsHovered3] = useState(false);
 
   return (
-    <Flex gap={12} mt={12} wrap={'wrap'} justifyContent={'center'}>
+    <Flex mt={12} wrap={'wrap'} justifyContent={'space-between'}>
       <Flex flexDirection={'column'} justify={'space-between'}
-        w="28rem"
-        h="33rem"
+        w="30%"
+        h="25rem"
         bgColor="blue.200"
         m="2"
         onMouseEnter={() => setIsHovered1(true)}
-        onMouseLeave={() => setIsHovered1(false)} bgImage={picture} bgSize={"cover"} bgPosition='center'
+        onMouseLeave={() => setIsHovered1(false)} bgImage={moment} bgSize={"cover"} bgPosition='center'
       > 
       <Box>.</Box>
         <SlideFade in={isHovered1}>
@@ -25,8 +26,8 @@ function SlideFadeEx() {
         </SlideFade>
       </Flex>
       <Flex flexDirection={'column'} justify={'space-between'}
-        w="28rem"
-        h="33rem"
+        w="30%"
+        h="25rem"
         bgColor="blue.200"
         m="2"
         onMouseEnter={() => setIsHovered2(true)}
@@ -41,8 +42,8 @@ function SlideFadeEx() {
       </Flex>
 
       <Flex flexDirection={'column'} justify={'space-between'}
-        w="28rem"
-        h="33rem"
+        w="30%"
+        h="25rem"
         bgColor="red.200"
         m="2"
         onMouseEnter={() => setIsHovered3(true)}

@@ -14,18 +14,18 @@ export function CardDrawer({ isOpen, onOpen, onClose,singleData }) {
           isOpen={isOpen}
           placement='right'
           onClose={onClose}
-          finalFocusRef={btnRef} size={"md"} px={12}
+          finalFocusRef={btnRef} size={"sm"} 
         >
           <DrawerOverlay />
           <DrawerContent >
-            <DrawerCloseButton />
+            {/* <DrawerCloseButton  mb="10px" bg="orange.orange500" color="#fff"/> */}
             {/* <DrawerHeader>Create your account</DrawerHeader> */}
 
   
-            <DrawerBody bg={'red'} >
-              <Box mt={8} bg={'green'}  w={'100%'} h={'30rem'}>
-              <Image h={"100%"} w={"100%"} src={singleData.photo} />
-              </Box>
+            <DrawerBody bg={'#fff'} >
+
+              <Image mt="21px"  w={"100%"} src={singleData.photo} />
+             
               <Text mt={2} mb={'12'} px={2} fontSize={'2rem'}>{singleData.Name}</Text>
               <hr/>
               <Text>{singleData.story}</Text>

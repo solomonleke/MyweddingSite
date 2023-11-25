@@ -14,10 +14,10 @@ const Card = ({ data }) => {
 
   return (
     <>
-      <Flex justify={"center"} gap={"5"} wrap="wrap" w={"100%"}>
+      <Flex justify={"space-between"}  wrap="wrap" w={"100%"}>
         {data.map((card, Index) => (
-          <Box mt={5} w={"20rem"} key={Index} onClick={() => HandleClick(card)}>
-            <Box w={"100%"} position={"relative"} h={"20rem"}>
+          <Box mt={5} w={["100%","48%","32%","24%","24%"]} key={Index} onClick={() => HandleClick(card)}>
+            <Box w={"100%"} position={"relative"} >
               <Text
                 position={"absolute"}
                 top={0}
@@ -29,10 +29,10 @@ const Card = ({ data }) => {
                 {card.category}
               </Text>
 
-              <Image h={"20rem"} w={"100%"} src={card.photo} />
+              <Image   w={"100%"} src={card.photo} />
             </Box>
-            <Box p="4">
-              <Text fontSize={"1.5rem"} fontWeight={500}  color={ "orange.orange500" }>
+            <Box pt="10px">
+              <Text fontSize={"1.2rem"} fontWeight={600}  color={ "orange.orange500" }>
                 {card.Name}
               </Text>
               <Text>{card.summary}</Text>

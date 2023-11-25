@@ -596,21 +596,31 @@ export default function Home() {
       </Flex>
 
       <Box w={"100%"}>
-        <Center fontSize="4rem" as={"b"}>
-          Our Best Friends
-        </Center>
-        <Center fontSize={"1.5rem"}>
-          "True friendship takes us by hand and reminds us that we are never
-          alone on the journey"
-        </Center>
-
-        <Tabs px="6%">
+      <Text
+        mt={"32px"}
+        textAlign={"center"}
+        fontSize={"2em"}
+        px={"6%"}
+        textTransform={"uppercase"}
+        fontWeight={"600"}
+        lineHeight={"1em"}
+        color={"#121f38"}
+      >
+       our best friends
+      </Text>
+      <Text fontSize={["1em", "1em", "1.1em", "1.2em", "1em"]} mt="22px" textAlign={"center"}>
+            {" "}
+            "True friendship takes us by hand and reminds us that we are never
+          alone on the journey
+          </Text>
+       
+        <Tabs px="6%" mt="32px">
           <TabList>
             <Tab>All</Tab>
 
-            <Tab>GroomsMen</Tab>
+            <Tab>Grooms Men</Tab>
 
-            <Tab>BridesMaid</Tab>
+            <Tab>Brides Maid</Tab>
           </TabList>
 
           <TabPanels>
@@ -638,11 +648,20 @@ export default function Home() {
       </Box>
 
       <Box>
-        <Center fontSize="4rem" mt={12} as={"b"}>
-          Captured Moments
-        </Center>
+      <Text
+        mt={"32px"}
+        textAlign={"center"}
+        fontSize={"2em"}
+        px={"6%"}
+        textTransform={"uppercase"}
+        fontWeight={"600"}
+        lineHeight={"1em"}
+        color={"#121f38"}
+      >
+       captured moments
+      </Text>
 
-        <Box px={'20%'}>
+        <Box px={'6%'}>
 
         <SlideFadeEx/>
         </Box>
