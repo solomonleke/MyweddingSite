@@ -23,10 +23,12 @@ export default function IndexRoutes() {
             <Route path='/gift-us' element={<GiftUs/>}/>
             <Route path='/moments' element={<Moments/>}/>
             <Route path='/wedding-info' element={<WeddingInfo/>}/>
+
             <Route path='/moments' element={<Moments/>}/>
             <Route path='/preWedding' element={<PreWedding/>}/>
             <Route path='/proposal' element={<Proposal/>}/>
             <Route path='/Ourfriend/:id' element={<Ourfriends/>}/>
+
         </Routes>
     </BrowserRouter>
   )

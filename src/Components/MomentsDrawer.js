@@ -1,9 +1,11 @@
 import { Box, SlideFade, Flex, Text, bgImage, Center } from "@chakra-ui/react";
 import React, { useState } from "react";
+
 import picture from "../asset/image3.jpg";
 import { useNavigate } from "react-router-dom";
 import Moments from "../Pages/capturedMoments/Moments";
 // import MomentsProposalPreWedding from "./MomentsProposalPreWedding";
+
 
 function SlideFadeEx() {
   const [isHovered1, setIsHovered1] = useState(false);
@@ -15,6 +17,7 @@ function SlideFadeEx() {
   const momentspictures=[{photo:"https://bit.ly/code-beast"},{photo:"https://bit.ly/code-beast"},{photo:"https://bit.ly/code-beast"},{photo:"https://bit.ly/code-beast"},{photo:"https://bit.ly/code-beast"},{photo:"https://bit.ly/code-beast"},{photo:"https://bit.ly/code-beast"},{photo:"https://bit.ly/code-beast"}]
 
   return (
+
     <Flex w={"100%"} gap={2} mt={12} wrap={"wrap"} justifyContent={"center"}>
       <Flex
         flexDirection={"column"}
@@ -32,6 +35,7 @@ function SlideFadeEx() {
         boxShadow={'13px 17px 15px -3px rgba(0,0,0,0.1)'}
       >
         <Box>.</Box>
+
         <SlideFade in={isHovered1}>
         <Box py="20" bgColor="rgba(63,58,50,0.6)" onClick={() => nav("/moments")} color="white">
             <Center fontSize={"2rem"} _hover={{ color: "orange.orange500" }}>
@@ -40,6 +44,7 @@ function SlideFadeEx() {
           </Box>
         </SlideFade>
       </Flex>
+
       <Flex
         flexDirection={"column"}
         justify={"space-between"}
@@ -47,6 +52,7 @@ function SlideFadeEx() {
         minW={"25rem"}
         h="30rem"
         // bgColor="blue.200"
+
         m="2"
         onMouseEnter={() => setIsHovered2(true)}
         onMouseLeave={() => setIsHovered2(false)}
@@ -64,7 +70,6 @@ function SlideFadeEx() {
           </Box>
         </SlideFade>
       </Flex>
-
       <Flex
         flexDirection={"column"}
         justify={"space-between"}
@@ -72,6 +77,7 @@ function SlideFadeEx() {
         minW={"25rem"}
         h="30rem"
         // bgColor="red.200"
+
         m="2"
         onMouseEnter={() => setIsHovered3(true)}
         onMouseLeave={() => setIsHovered3(false)}
