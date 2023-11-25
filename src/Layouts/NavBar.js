@@ -82,9 +82,12 @@ export default function NavBar() {
         ))}
 
         {/* <Button w='auto' onClick={() => nav("/login")}>Get E-invite</Button> */}
-        <Button w="auto">
-          <a href={invite}>Get E-Invite</a>
-        </Button>
+        <a href={invite}>
+          <Button w="auto" >
+            Get E-Invite
+          </Button>
+        </a>
+
       </Flex>
 
       <Box
@@ -124,9 +127,11 @@ export default function NavBar() {
 
               {/* <Button w='auto' onClick={() => nav("/login")}>Enroll now</Button> */}
 
-              <Button w="auto">
-                <a href={invite}>Enroll now</a>
-              </Button>
+              <a href={invite}>
+                <Button w="auto" >
+                  Get E-Invite
+                </Button>
+              </a>
             </Stack>
           </DrawerBody>
 

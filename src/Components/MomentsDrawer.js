@@ -27,6 +27,7 @@ function SlideFadeEx() {
         h="30rem"
         // bgColor="blue.200"
         m="2"
+        cursor="pointer"
         onMouseEnter={() => setIsHovered1(true)}
         onMouseLeave={() => setIsHovered1(false)}
         bgImage='https://bit.ly/kent-c-dodds'
@@ -54,6 +55,7 @@ function SlideFadeEx() {
         // bgColor="blue.200"
 
         m="2"
+        cursor="pointer"
         onMouseEnter={() => setIsHovered2(true)}
         onMouseLeave={() => setIsHovered2(false)}
         bgImage={picture}
@@ -79,6 +81,7 @@ function SlideFadeEx() {
         // bgColor="red.200"
 
         m="2"
+        cursor="pointer"
         onMouseEnter={() => setIsHovered3(true)}
         onMouseLeave={() => setIsHovered3(false)}
         bgImage='https://bit.ly/kent-c-dodds'
