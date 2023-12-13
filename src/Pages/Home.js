@@ -404,7 +404,7 @@ export default function Home() {
         // position='relative'
 
         // minChildWidth={"400px"}
-        paddingX={{ base: "9%", lg: "16%" }}
+        paddingX={{ base: "2%", lg: "10%" }}
       >
         <Flex
           flexDirection={"column"}
@@ -476,7 +476,8 @@ export default function Home() {
         </Flex>
 
         <Box
-          p="8"
+          px="2%"
+          py="8"
           w={{ base: "100%", lg: "55%" }}
           border={"none"}
           h={{ rem: "30rem" }}
@@ -627,12 +628,12 @@ export default function Home() {
               after the bus was about to move, I requested for her phone number
               which she called with everybody looking at me.
             </Text>
-            <Box h={"40rem"} w="100%" mt="10" mx={"auto"}>
+            <Box overflow={"auto"} h={"40rem"} w="100%" mt="10" mx={"auto"} objectFit={"contain"}>
             <iframe width="400" height="450" src="https://www.youtube.com/embed/XJJ2LPTCInY?si=s9fzbVV7zLeHshnf" title="YouTube video player" frameborder="0"
              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </Box>
           </Box>
-          <Box mt={8} p={8} _hover={{ bg: "rgba(142,145,145,0.1)" }}>
+          <Box mt={8} px={3} _hover={{ bg: "rgba(142,145,145,0.1)" }}>
             <Text
               color={"orange.orange500"}
               mb={"0.5rem"}
