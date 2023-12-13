@@ -30,6 +30,12 @@ import { HiOutlineArrowNarrowDown } from "react-icons/hi";
 import { FaVideo } from "react-icons/fa";
 
 import wife from "../../src/asset/ireti1.jpg";
+import Nycc from "../asset/nysc.jpg";
+import askingHerOut from "../asset/askingherout.jpg";
+import relationship from "../asset/ourRelationship.jpg";
+import preWed from "../asset/prewed.jpg";
+import bride from "../asset/bride.jpg";
+import groom from "../asset/groom.jpg";
 import { transform } from "framer-motion";
 import NavItem from "../Layouts/NavItem";
 import { BsFileX } from "react-icons/bs";
@@ -414,7 +420,8 @@ export default function Home() {
               borderRadius={"50%"}
               h={"100%"}
               w={"100%"}
-              src={"https://bit.ly/sage-adebayo"}
+              objectFit={"cover"}
+              src={groom}
             />
             <Box
               position={"absolute"}
@@ -448,7 +455,8 @@ export default function Home() {
               borderRadius={"50%"}
               h={"100%"}
               w={"100%"}
-              src={"https://bit.ly/sage-adebayo"}
+              objectFit={"cover"}
+              src={bride}
             />
             <Box
               position={"absolute"}
@@ -486,44 +494,15 @@ export default function Home() {
         >
           <Box mt={8} p={8} _hover={{ bg: "rgba(142,145,145,0.1)" }}>
             <Text color={"orange.orange500"} fontWeight={500} fontSize="1.3rem">
-              December 13, 2020
+              January 5, 2020
             </Text>
             <Text as={"b"} my={"1rem"} fontSize="2rem">
               How we met
             </Text>
             <Text mb={"2rem"} mt={"1rem"} fontSize={"1.2rem"} color={"grey"}>
-              So ,it all started after NYSC camp (I was meant to go and serve my
-              father land o) I had just gotten to Ibadan and gotten a place but
-              because I knew no one at that time ,I had to call a friend of mine
-              who hadn't gotten a place but was staying over at a church
-              apartment (mfm I think 🤔) . This particular day I went to visit
-              this friend of mine Jennifer at the church house and prior to that
-              she'd been gisting me about a guy she met there and they were
-              staying there together and she was so crazy about the guy and
-              wanted me to meet him . so out of boredom (I mean new corper no
-              work ) I went to the family house and I met with my friends crush
-              , met quite a few people and I was just having a lovely afternoon
-              . But there in the corner was this "guy" who kept making everybody
-              laugh , was in everyone's face and you just couldn't miss him and
-              I laughed,laughed and laughed , this guy just wouldn't stop ! .
-              Fast forward to the next day I found myself there again (ahhhh)
-              this time I didn't even go home to sleep ,then a particular thing
-              happened we were to go hunting for food ,and then there came 2
-              bikes ,my friend had hopped on a bike with her guy ,then there I
-              was left with this guy that had made me laugh all day,I refused to
-              sit in between him and the bike guy 🤣 as a saint that I am , but
-              what struck me was that unlike most guys he didn't make a fuss out
-              of it ,he gladly sat in the middle and there I was like oh what a
-              gentleman .(😅) Fast-forward to the next day , I invited the trio
-              to my place ( Jennifer her boo and "my boo" 🤭)and then this guy
-              cooked ! A guy that cooks ! (I'm like oh em gee 😮) meanwhile ,all
-              along we had talked ,cos my friend was busy with his friend so we
-              had to talk, and we were getting along in a weird way ,one way I
-              hadn't gotten along with anybody before in the past . so , he
-              cooked ,he was sweet , he made me laugh ,the way he talked about
-              his life and the things he loved made me admire him, oh and he
-              cooked ( trust me you can't imagine ) . One thing led to another
-              and here we are 4 years after ! I can't wait to say I do 🥰🥰
+              We met on a sunny afternoon at a church family house for returning corpers from NYSC camp . We both had friends staying over at the house ,
+               we got talking , one thing led to another and we became friends .
+               4  years down the line we cant wait to spend the rest of our lives together . A beautiful NYSC Story it is ! 
             </Text>
             <Box h={"40rem"} w="100%" mt="10" mx={"auto"}>
               <Image
@@ -533,30 +512,22 @@ export default function Home() {
                 }}
                 h={"100%"}
                 w="100%"
-                src={wife}
+                objectFit={"contain"}
+                src={Nycc}
                 alt=""
               />
             </Box>
           </Box>
           <Box mt={8} p={8} _hover={{ bg: "rgba(142,145,145,0.1)" }}>
             <Text color={"orange.orange500"} fontWeight={500} fontSize="1.3rem">
-              February 23, 2021
+            
             </Text>
             <Text as={"b"} my={"1rem"} fontSize="2rem">
               We fell in Love
             </Text>
             <Text mb={"2rem"} mt={"1rem"} fontSize={"1.2rem"} color={"grey"}>
-              We met each other through a mutual friend on Sunday 13th of
-              December 2020. It was after camp meeting in our local church. I
-              was speaking with a friend after service when my friend just came
-              over to me and said “I have found your wife.” Of course, I laughed
-              over it as prior before then, both of us were trying to be on the
-              lookout for ladies we could be in a relationship with. I just
-              shrugged it off, but he insisted the girl speaks Queen’s English
-              and is befitting for me. Still not sounding convincing enough, he
-              dragged me to where she was sitting and introduced us. “I’m Akin,
-              it’s nice meeting You”, I said and hurriedly looked for an excuse
-              to “avoid” the girl.
+            We are not sure we can put a date to this , since we met it has been a gradual process of loving each other daily
+            
             </Text>
             <Box h={"40rem"} w="100%" mt="10" mx={"auto"}>
               <Image
@@ -564,16 +535,18 @@ export default function Home() {
                   transform: "scale(1.1)",
                   transition: "transform 1s ease",
                 }}
-                h={"100%"}
+              
+                objectFit={"contain"}
                 w="100%"
+                h="100%"
                 src={wife}
                 alt=""
               />
             </Box>
           </Box>
-          <Box mt={8} p={8} _hover={{ bg: "rgba(142,145,145,0.1)" }}>
+          <Box mt={0} p={8} _hover={{ bg: "rgba(142,145,145,0.1)" }}>
             <Text color={"orange.orange500"} fontWeight={500} fontSize="1.3rem">
-              June 23, 2021
+              February 16, 2020
             </Text>
             <Text as={"b"} my={"1rem"} fontSize="2rem">
               Asking her out
@@ -593,8 +566,9 @@ export default function Home() {
                   transition: "transform 1s ease",
                 }}
                 h={"100%"}
+                objectFit={"contain"}
                 w="100%"
-                src={wife}
+                src={askingHerOut}
                 alt=""
               />
             </Box>
@@ -627,8 +601,9 @@ export default function Home() {
                   transition: "transform 1s ease",
                 }}
                 h={"100%"}
+                objectFit={"contain"}
                 w="100%"
-                src={wife}
+                src={relationship}
                 alt=""
               />
             </Box>
@@ -653,16 +628,8 @@ export default function Home() {
               which she called with everybody looking at me.
             </Text>
             <Box h={"40rem"} w="100%" mt="10" mx={"auto"}>
-              <Image
-                _hover={{
-                  transform: "scale(1.1)",
-                  transition: "transform 1s ease",
-                }}
-                h={"100%"}
-                w="100%"
-                src={wife}
-                alt=""
-              />
+            <iframe width="400" height="450" src="https://www.youtube.com/embed/XJJ2LPTCInY?si=s9fzbVV7zLeHshnf" title="YouTube video player" frameborder="0"
+             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </Box>
           </Box>
           <Box mt={8} p={8} _hover={{ bg: "rgba(142,145,145,0.1)" }}>
@@ -693,8 +660,9 @@ export default function Home() {
                   transition: "transform 1s ease",
                 }}
                 h={"100%"}
+                objectFit={"contain"}
                 w="100%"
-                src={wife}
+                src={preWed}
                 alt=""
               />
             </Box>
