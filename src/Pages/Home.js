@@ -383,7 +383,6 @@ export default function Home() {
       >
         <Box w={["90%", "80%", "60%", "50%", "50%"]} color="#595e5e">
           <Text fontSize={["1em", "1em", "1.1em", "1.2em", "1em"]} mt="22px">
-            
             "One of the surprising things after the day we met was that we got
             along pretty quick which I never envisaged." - Iretioluwa Popoola
           </Text>
@@ -409,7 +408,7 @@ export default function Home() {
           border={"2px dashed"}
           borderColor={"orange.orange500"}
         >
-          <Box h={"20rem"} position={'relative'} w={"20rem"} mx={"auto"}>
+          <Box h={"20rem"} position={"relative"} w={"20rem"} mx={"auto"}>
             <Image
               alt="wife"
               borderRadius={"50%"}
@@ -417,19 +416,20 @@ export default function Home() {
               w={"100%"}
               src={"https://bit.ly/sage-adebayo"}
             />
-           <Box
-                position={"absolute"}
-                bottom={-5}
-                right={'31.8%'}
-                fontSize={"1.1rem"}
-                py={2}
-                w={'33.3%'}
-               
-                // rounded={'1rem'}
-                bg={"orange.orange500"} fontWeight={500} color={"white"}
-              >
-               <Center> Solomon</Center>
-              </Box>
+            <Box
+              position={"absolute"}
+              bottom={-5}
+              right={"31.8%"}
+              fontSize={"1.1rem"}
+              py={2}
+              w={"33.3%"}
+              // rounded={'1rem'}
+              bg={"orange.orange500"}
+              fontWeight={500}
+              color={"white"}
+            >
+              <Center> Solomon</Center>
+            </Box>
           </Box>
           {/* <Avatar size={'1.5rem'} name='Segun Adebayo' src='https://bit.ly/sage-adebayo' /> */}
 
@@ -443,20 +443,27 @@ export default function Home() {
             />
           </Box>
 
-          <Box h={"20rem"} position={'relative'} w={"20rem"} mx={"auto"}>
-            <Image borderRadius={"50%"} h={"100%"} w={"100%"} src={"https://bit.ly/sage-adebayo"} />
+          <Box h={"20rem"} position={"relative"} w={"20rem"} mx={"auto"}>
+            <Image
+              borderRadius={"50%"}
+              h={"100%"}
+              w={"100%"}
+              src={"https://bit.ly/sage-adebayo"}
+            />
             <Box
-                position={"absolute"}
-                bottom={-5}
-                right={'31.8%'}
-                fontSize={"1.1rem"}
-                py={2}
-                w={'33.3%'}
-                // rounded={'1rem'}
-                bg={"orange.orange500"} fontWeight={500} color={"white"}
-              >
-               <Center> Peace</Center>
-              </Box>
+              position={"absolute"}
+              bottom={-5}
+              right={"31.8%"}
+              fontSize={"1.1rem"}
+              py={2}
+              w={"33.3%"}
+              // rounded={'1rem'}
+              bg={"orange.orange500"}
+              fontWeight={500}
+              color={"white"}
+            >
+              <Center> Peace</Center>
+            </Box>
           </Box>
         </Flex>
 
@@ -485,28 +492,38 @@ export default function Home() {
               How we met
             </Text>
             <Text mb={"2rem"} mt={"1rem"} fontSize={"1.2rem"} color={"grey"}>
-              We met each other through a mutual friend on Sunday 13th of
-              December 2020. It was after camp meeting in our local church. I
-              was speaking with a friend after service when my friend just came
-              over to me and said “I have found your wife.” Of course, I laughed
-              over it as prior before then, both of us were trying to be on the
-              lookout for ladies we could be in a relationship with. I just
-              shrugged it off, but he insisted the girl speaks Queen’s English
-              and is befitting for me. Still not sounding convincing enough, he
-              dragged me to where she was sitting and introduced us. “I’m Akin,
-              it’s nice meeting You”, I said and hurriedly looked for an excuse
-              to “avoid” the girl. My first impression was that she was going be
-              very proud with her poise and English. Compared to other ladies I
-              had met in similar fashion, I came back to her after an hour and
-              sat down to talk to her which was really strange. We had a very
-              interesting conversation for about an hour which was really
-              impressive. From me bantering her for OAU not giving her an
-              admission to me joking about her Queen’s English, she really did
-              make a good impression to me, but then, I never thought about
-              anything love as it were. After our first conversation, it was
-              time for her to go. I offered to wheel her box to the bus and just
-              after the bus was about to move, I requested for her phone number
-              which she called with everybody looking at me.
+              So ,it all started after NYSC camp (I was meant to go and serve my
+              father land o) I had just gotten to Ibadan and gotten a place but
+              because I knew no one at that time ,I had to call a friend of mine
+              who hadn't gotten a place but was staying over at a church
+              apartment (mfm I think 🤔) . This particular day I went to visit
+              this friend of mine Jennifer at the church house and prior to that
+              she'd been gisting me about a guy she met there and they were
+              staying there together and she was so crazy about the guy and
+              wanted me to meet him . so out of boredom (I mean new corper no
+              work ) I went to the family house and I met with my friends crush
+              , met quite a few people and I was just having a lovely afternoon
+              . But there in the corner was this "guy" who kept making everybody
+              laugh , was in everyone's face and you just couldn't miss him and
+              I laughed,laughed and laughed , this guy just wouldn't stop ! .
+              Fast forward to the next day I found myself there again (ahhhh)
+              this time I didn't even go home to sleep ,then a particular thing
+              happened we were to go hunting for food ,and then there came 2
+              bikes ,my friend had hopped on a bike with her guy ,then there I
+              was left with this guy that had made me laugh all day,I refused to
+              sit in between him and the bike guy 🤣 as a saint that I am , but
+              what struck me was that unlike most guys he didn't make a fuss out
+              of it ,he gladly sat in the middle and there I was like oh what a
+              gentleman .(😅) Fast-forward to the next day , I invited the trio
+              to my place ( Jennifer her boo and "my boo" 🤭)and then this guy
+              cooked ! A guy that cooks ! (I'm like oh em gee 😮) meanwhile ,all
+              along we had talked ,cos my friend was busy with his friend so we
+              had to talk, and we were getting along in a weird way ,one way I
+              hadn't gotten along with anybody before in the past . so , he
+              cooked ,he was sweet , he made me laugh ,the way he talked about
+              his life and the things he loved made me admire him, oh and he
+              cooked ( trust me you can't imagine ) . One thing led to another
+              and here we are 4 years after ! I can't wait to say I do 🥰🥰
             </Text>
             <Box h={"40rem"} w="100%" mt="10" mx={"auto"}>
               <Image
@@ -677,7 +694,6 @@ export default function Home() {
                 }}
                 h={"100%"}
                 w="100%"
-                
                 src={wife}
                 alt=""
               />
@@ -686,28 +702,30 @@ export default function Home() {
         </Box>
       </Flex>
 
-
       <Box w={"100%"}>
-      <Text
-        mt={"32px"}
-        textAlign={"center"}
-        fontSize={"2em"}
-        px={"6%"}
-        textTransform={"uppercase"}
-        fontWeight={"600"}
-        lineHeight={"1em"}
-        color={"#121f38"}
-      >
-       our best friends
-      </Text>
-      <Text fontSize={["1em", "1em", "1.1em", "1.2em", "1em"]} mt="22px" textAlign={"center"}>
-            {" "}
-            "True friendship takes us by hand and reminds us that we are never
+        <Text
+          mt={"32px"}
+          textAlign={"center"}
+          fontSize={"2em"}
+          px={"6%"}
+          textTransform={"uppercase"}
+          fontWeight={"600"}
+          lineHeight={"1em"}
+          color={"#121f38"}
+        >
+          our best friends
+        </Text>
+        <Text
+          fontSize={["1em", "1em", "1.1em", "1.2em", "1em"]}
+          mt="22px"
+          textAlign={"center"}
+        >
+          {" "}
+          "True friendship takes us by hand and reminds us that we are never
           alone on the journey
-          </Text>
-       
-        <Tabs px="6%" mt="32px">
+        </Text>
 
+        <Tabs px="6%" mt="32px">
           <TabList>
             <Tab>All</Tab>
 
@@ -738,25 +756,22 @@ export default function Home() {
 
       <Box></Box>
 
-
       <Box>
-      <Text
-        mt={"32px"}
-        textAlign={"center"}
-        fontSize={"2em"}
-        px={"6%"}
-        textTransform={"uppercase"}
-        fontWeight={"600"}
-        lineHeight={"1em"}
-        color={"#121f38"}
-      >
-       captured moments
-      </Text>
+        <Text
+          mt={"32px"}
+          textAlign={"center"}
+          fontSize={"2em"}
+          px={"6%"}
+          textTransform={"uppercase"}
+          fontWeight={"600"}
+          lineHeight={"1em"}
+          color={"#121f38"}
+        >
+          captured moments
+        </Text>
 
-        <Box px={'6%'}>
-
-        <SlideFadeEx/>
-
+        <Box px={"6%"}>
+          <SlideFadeEx />
         </Box>
       </Box>
     </OuterLayout>
