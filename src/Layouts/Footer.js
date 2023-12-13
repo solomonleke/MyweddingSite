@@ -13,6 +13,7 @@ import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 import Input from "../Components/Input";
 import logo from "../asset/logoGold.png";
 
+
 export default function Footer() {
   return (
     <Box bg="#242424" mt='6%' px="6%" py="12px" pb="32px">
