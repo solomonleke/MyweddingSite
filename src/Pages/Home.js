@@ -373,7 +373,7 @@ export default function Home() {
       <Text
         mt={"10rem"}
         textAlign={"center"}
-        fontSize={"4rem"}
+        fontSize={"2rem"}
         px={"6%"}
         // textTransform={"uppercase"}
         fontWeight={"600"}
@@ -404,7 +404,7 @@ export default function Home() {
         // position='relative'
 
         // minChildWidth={"400px"}
-        paddingX={{ base: "2%", lg: "10%" }}
+        paddingX={{ base: "2%", lg: "6%" }}
       >
         <Flex
           flexDirection={"column"}
