@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import picture from "../asset/image3.jpg";
 import { useNavigate } from "react-router-dom";
 import Moments from "../Pages/capturedMoments/Moments";
+import tele13 from "../asset/moments/telegram/tele13.jpeg"
 // import MomentsProposalPreWedding from "./MomentsProposalPreWedding";
 
 
@@ -30,7 +31,7 @@ function SlideFadeEx() {
         cursor="pointer"
         onMouseEnter={() => setIsHovered1(true)}
         onMouseLeave={() => setIsHovered1(false)}
-        bgImage='https://bit.ly/kent-c-dodds'
+        bgImage={tele13}
         bgSize={"cover"}
         bgPosition="center"
         boxShadow={'13px 17px 15px -3px rgba(0,0,0,0.1)'}

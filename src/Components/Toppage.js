@@ -8,6 +8,7 @@ const Toppage = ({image,text}) => {
   return (
     <Box
         minH="20vh"
+        // h='fit-content'
         w="100%"
         bgImage={image}
         bgSize={"cover"}

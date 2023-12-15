@@ -13,6 +13,27 @@ import m12 from "../../asset/moments/12.jpeg";
 import m13 from "../../asset/moments/13.jpeg";
 import m14 from "../../asset/moments/14.jpeg";
 import m15 from "../../asset/moments/15.jpeg";
+import m16 from "../../asset/moments/telegram/tele1.jpeg";
+import m17 from "../../asset/moments/telegram/tele2.jpeg";
+import m18 from "../../asset/moments/telegram/tele3.jpeg";
+import m19 from "../../asset/moments/telegram/tele4.jpeg";
+import m20 from "../../asset/moments/telegram/tele5.jpeg";
+import m21 from "../../asset/moments/telegram/tele6.jpeg";
+import m22 from "../../asset/moments/telegram/tele7.jpeg";
+import m23 from "../../asset/moments/telegram/tele8.jpeg";
+import m24 from "../../asset/moments/telegram/tele9.jpeg";
+import m25 from "../../asset/moments/telegram/tele10.jpeg";
+import m26 from "../../asset/moments/telegram/tele11.jpeg";
+import m27 from "../../asset/moments/telegram/tele12.jpeg";
+import m28 from "../../asset/moments/telegram/tele13.jpeg";
+import m29 from "../../asset/moments/telegram/tele14.jpeg";
+import m30 from "../../asset/moments/telegram/tele15.jpeg";
+import m31 from "../../asset/moments/telegram/tele16.jpeg";
+import m32 from "../../asset/moments/telegram/tele17.jpeg";
+import m33 from "../../asset/moments/telegram/tele18.jpeg";
+import m34 from "../../asset/moments/telegram/tele19.jpeg";
+import m35 from "../../asset/moments/telegram/tele20.jpeg";
+import m36 from "../../asset/moments/telegram/tele21.jpeg";
 
 export const MomentPictures = [
   { photo: m1 },
@@ -32,4 +53,25 @@ export const MomentPictures = [
   { photo: m13 },
   { photo: m14 },
   { photo: m15 },
+  { photo: m16 },
+  { photo: m17 },
+  { photo: m18 },
+  { photo: m19 },
+  { photo: m20 },
+  { photo: m21 },
+  { photo: m22 },
+  { photo: m23 },
+  { photo: m24 },
+  { photo: m25 },
+  { photo: m26 },
+  { photo: m27 },
+  { photo: m28 },
+  { photo: m29 },
+  { photo: m30 },
+  { photo: m31 },
+  { photo: m32 },
+  { photo: m33 },
+  { photo: m34 },
+  { photo: m35 },
+  { photo: m36 },
 ];
