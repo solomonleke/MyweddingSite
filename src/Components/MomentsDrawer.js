@@ -15,16 +15,14 @@ function SlideFadeEx() {
 
   const nav= useNavigate()
 
-  const momentspictures=[{photo:"https://bit.ly/code-beast"},{photo:"https://bit.ly/code-beast"},{photo:"https://bit.ly/code-beast"},{photo:"https://bit.ly/code-beast"},{photo:"https://bit.ly/code-beast"},{photo:"https://bit.ly/code-beast"},{photo:"https://bit.ly/code-beast"},{photo:"https://bit.ly/code-beast"}]
 
   return (
 
-    <Flex w={"100%"} gap={2} mt={12} wrap={"wrap"} justifyContent={"center"}>
+    <Flex w={"100%"} gap={2} mt={12} wrap={"wrap"} justifyContent={"space-between"}>
       <Flex
         flexDirection={"column"}
         justify={"space-between"}
-        w="30%"
-        minW={"25rem"}
+        w={["100%","100%","32%","32%","32%"]}
         h="30rem"
         // bgColor="blue.200"
         m="2"
@@ -50,8 +48,7 @@ function SlideFadeEx() {
       <Flex
         flexDirection={"column"}
         justify={"space-between"}
-        w="30%"
-        minW={"25rem"}
+        w={["100%","100%","32%","32%","32%"]}
         h="30rem"
         // bgColor="blue.200"
 
@@ -76,8 +73,7 @@ function SlideFadeEx() {
       <Flex
         flexDirection={"column"}
         justify={"space-between"}
-        w="30%"
-        minW={"25rem"}
+        w={["100%","100%","32%","32%","32%"]}
         h="30rem"
         // bgColor="red.200"
 

@@ -9,13 +9,14 @@ const BankCard = () => {
 
       <Flex wrap={"wrap"} gap={8} justifyContent={"center"}>
         {bankCardItems.map((item, Index) => (
-          <Box key={Index} minWidth={"10rem"} boxShadow={'13px 17px 15px -3px rgba(0,0,0,0.1)'}  maxWidth={"20rem"} p={8}>
-            <Flex justifyContent={"center"} w={"10rem"}>
+          <Box key={Index} minWidth={"10rem"}   maxWidth={"20rem"} p={8}>
+            <Flex justifyContent={"center"} w={"auto"}>
               <Image  src={item.logo} />
             </Flex>
-            <Box justify={"space-between"} fontSize={'1.5rem'} fontWeight={500} my={4}>
+            <Box justify={"space-between"} fontSize={'1.2rem'} fontWeight={500} my={4}>
               <Center>{item.bankName}</Center>
               <Center>{item.bankAccount}</Center>
+              <Center>{item.accName}</Center>
             </Box>
           </Box>
         ))}

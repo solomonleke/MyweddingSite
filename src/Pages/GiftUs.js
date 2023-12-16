@@ -37,14 +37,9 @@ const GiftUs = () => {
           </Box>
         </Flex>
       </Box>
-      <Box px={{ base: "5%",md:'10%', lg: "15%" }} mt={12}>
-        <AspectRatio maxW="60rem" mx={"auto"} maxH={"40rem"}>
-          <Image h={"100%"} w={"100%"} src="https://bit.ly/dan-abramov" />
-        </AspectRatio>
-        <Center mt={8} fontSize={"1.2rem"} color={"grey"}>
-          Thank You so much for your generous gift. We are grateful and we pray
-          that Your seed sown is blessed.
-        </Center>
+      <Box px={{ base: "5%",md:'10%', lg: "10%" }} mt={12}>
+       
+     
 
         <FaithListCard />
       </Box>
