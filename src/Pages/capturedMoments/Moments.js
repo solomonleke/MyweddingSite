@@ -1,6 +1,6 @@
 import React from "react";
 import OuterLayout from "../../Layouts/Index";
-import { Box, Center, Flex, Image} from "@chakra-ui/react";
+import { Box, Center, Flex, Image } from "@chakra-ui/react";
 // import Button from "../../Components/Button";
 // import { HiOutlineArrowNarrowDown } from "react-icons/hi";
 import image1 from "../../asset/moments/8.jpeg";
@@ -8,12 +8,12 @@ import image1 from "../../asset/moments/8.jpeg";
 import Toppage from "../../Components/Toppage";
 import { MomentPictures } from "../../Utils/capturedUtils/momentsPictures";
 
-
 const Moments = () => {
   return (
     <OuterLayout>
       <Toppage text={"Moments"} image={image1} />
-      <Box mt={"8rem"} px={"15%"}>
+      <Box  mt={["2%", "2%", "5%", "4rem", "4rem"]} px={["2%", "2%", "5%", "10%", "15%"]}>
+      
         <Flex
           gap={4}
           wrap={"wrap"}
@@ -21,7 +21,7 @@ const Moments = () => {
           justifyContent={"center"}
         >
           {MomentPictures.map((item, Index) => (
-            <Box w={"18rem"} h={'auto'}>
+            <Box w={"18rem"} h={"auto"}>
               <Image w={"100%"} h={"auto"} src={item.photo} />
             </Box>
           ))}

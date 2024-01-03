@@ -34,6 +34,18 @@ import m33 from "../../asset/moments/telegram/tele18.jpeg";
 import m34 from "../../asset/moments/telegram/tele19.jpeg";
 import m35 from "../../asset/moments/telegram/tele20.jpeg";
 import m36 from "../../asset/moments/telegram/tele21.jpeg";
+import pre1 from "../../asset/moments/prewedding/M1.jpg";
+import pre2 from "../../asset/moments/prewedding/M2.jpg";
+import pre3 from "../../asset/moments/prewedding/M3.jpg";
+import pre4 from "../../asset/moments/prewedding/M4.jpg";
+import pre5 from "../../asset/moments/prewedding/M5.jpg";
+import pre6 from "../../asset/moments/prewedding/M6.jpg";
+import pre7 from "../../asset/moments/prewedding/M7.jpg";
+import pre8 from "../../asset/moments/prewedding/M8.jpg";
+import pre9 from "../../asset/moments/prewedding/M9.jpg";
+import pre10 from "../../asset/moments/prewedding/M10.jpg";
+import pre11 from "../../asset/moments/prewedding/M11.jpg";
+import pre12 from "../../asset/moments/prewedding/M12.jpg";
 
 export const MomentPictures = [
   { photo: m1 },
@@ -74,4 +86,19 @@ export const MomentPictures = [
   { photo: m34 },
   { photo: m35 },
   { photo: m36 },
+];
+
+export const PreWeddingPictures = [
+  { photo: pre1 },
+  { photo: pre2 },
+  { photo: pre3 },
+  { photo: pre4 },
+  { photo: pre5 },
+  { photo: pre6 },
+  { photo: pre7 },
+  { photo: pre8 },
+  { photo: pre9 },
+  { photo: pre10 },
+  { photo: pre11 },
+  { photo: pre12 },
 ];

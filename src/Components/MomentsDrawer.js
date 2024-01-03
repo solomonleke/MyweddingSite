@@ -5,6 +5,7 @@ import picture from "../asset/image3.jpg";
 import { useNavigate } from "react-router-dom";
 import Moments from "../Pages/capturedMoments/Moments";
 import tele13 from "../asset/moments/telegram/tele13.jpeg";
+import image1 from "../../src/asset/moments/prewedding/M5.jpg";
 // import MomentsProposalPreWedding from "./MomentsProposalPreWedding";
 
 function SlideFadeEx() {
@@ -20,20 +21,22 @@ function SlideFadeEx() {
       gap={2}
       mt={12}
       wrap={"wrap"}
-      justifyContent={"space-between"}
+      justifyContent={"center"}
+      // align={"center"}
     >
       <Flex
         flexDirection={"column"}
         justify={"space-between"}
-        w={["100%", "100%", "32%", "32%", "32%"]}
+        w={["100%", "100%", "45%", "30%", "30%"]}
         h="30rem"
+        // h={["30rem", "25rem", "25rem", "20rem", "30rem"]}
         bgColor={"red"}
         m="2"
         cursor="pointer"
         onMouseEnter={() => setIsHovered1(true)}
         onMouseLeave={() => setIsHovered1(false)}
         bgImage={tele13}
-        bgSize={"contain"}
+        bgSize={"cover"}
         bgPosition="center"
         boxShadow={"13px 17px 15px -3px rgba(0,0,0,0.1)"}
       >
@@ -56,7 +59,8 @@ function SlideFadeEx() {
       <Flex
         flexDirection={"column"}
         justify={"space-between"}
-        w={["100%", "100%", "32%", "32%", "32%"]}
+        // w={["100%", "100%", "30%", "30%", "30%"]}
+        w={["100%", "100%", "45%", "30%", "30%"]}
         h="30rem"
         // bgColor="blue.200"
 
@@ -86,7 +90,7 @@ function SlideFadeEx() {
       <Flex
         flexDirection={"column"}
         justify={"space-between"}
-        w={["100%", "100%", "32%", "32%", "32%"]}
+        w={["100%", "100%", "45%", "30%", "30%"]}
         h="30rem"
         // bgColor="red.200"
 
@@ -94,7 +98,7 @@ function SlideFadeEx() {
         cursor="pointer"
         onMouseEnter={() => setIsHovered3(true)}
         onMouseLeave={() => setIsHovered3(false)}
-        bgImage="https://bit.ly/kent-c-dodds"
+        bgImage={image1}
         bgSize={"cover"}
         bgPosition="center"
         boxShadow={"13px 17px 15px -3px rgba(0,0,0,0.1)"}

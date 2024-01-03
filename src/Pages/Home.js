@@ -28,6 +28,7 @@ import image1 from "../asset/image3.jpg";
 import rose from "../asset/rose.png";
 import { HiOutlineArrowNarrowDown } from "react-icons/hi";
 import { FaVideo } from "react-icons/fa";
+import proposal6 from "../../src/asset/moments/proposal/proposal6.jpg";
 
 import wife from "../../src/asset/ireti1.jpg";
 import Nycc from "../asset/nysc.jpg";
@@ -501,9 +502,11 @@ export default function Home() {
               How we met
             </Text>
             <Text mb={"2rem"} mt={"1rem"} fontSize={"1.2rem"} color={"grey"}>
-              We met on a sunny afternoon at a church family house for returning corpers from NYSC camp . We both had friends staying over at the house ,
-               we got talking , one thing led to another and we became friends .
-               4  years down the line we cant wait to spend the rest of our lives together . A beautiful NYSC Story it is ! 
+              We met on a sunny afternoon at a church family house for returning
+              corpers from NYSC camp . We both had friends staying over at the
+              house , we got talking , one thing led to another and we became
+              friends . 4 years down the line we cant wait to spend the rest of
+              our lives together . A beautiful NYSC Story it is !
             </Text>
             <Box h={"40rem"} w="100%" mt="10" mx={"auto"}>
               <Image
@@ -520,15 +523,17 @@ export default function Home() {
             </Box>
           </Box>
           <Box mt={8} p={8} _hover={{ bg: "rgba(142,145,145,0.1)" }}>
-            <Text color={"orange.orange500"} fontWeight={500} fontSize="1.3rem">
-            
-            </Text>
+            <Text
+              color={"orange.orange500"}
+              fontWeight={500}
+              fontSize="1.3rem"
+            ></Text>
             <Text as={"b"} my={"1rem"} fontSize="2rem">
               We fell in Love
             </Text>
             <Text mb={"2rem"} mt={"1rem"} fontSize={"1.2rem"} color={"grey"}>
-            We are not sure we can put a date to this , since we met it has been a gradual process of loving each other daily
-            
+              We are not sure we can put a date to this , since we met it has
+              been a gradual process of loving each other daily
             </Text>
             <Box h={"40rem"} w="100%" mt="10" mx={"auto"}>
               <Image
@@ -536,7 +541,6 @@ export default function Home() {
                   transform: "scale(1.1)",
                   transition: "transform 1s ease",
                 }}
-              
                 objectFit={"contain"}
                 w="100%"
                 h="100%"
@@ -628,9 +632,19 @@ export default function Home() {
               after the bus was about to move, I requested for her phone number
               which she called with everybody looking at me.
             </Text>
-            <Box overflow={"auto"} h={"40rem"} w="100%" mt="10" mx={"auto"} objectFit={"contain"}>
-            <iframe width="400" height="450" src="https://www.youtube.com/embed/XJJ2LPTCInY?si=s9fzbVV7zLeHshnf" title="YouTube video player" frameborder="0"
-             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            <Box h={"40rem"} w="100%" mt="10" mx={"auto"}>
+              <Image
+                _hover={{
+                  transform: "scale(1.1)",
+                  transition: "transform 1s ease",
+                }}
+                h={"100%"}
+                objectFit={"contain"}
+                w="100%"
+                src={proposal6}
+                alt=""
+              />
             </Box>
           </Box>
           <Box mt={8} px={3} _hover={{ bg: "rgba(142,145,145,0.1)" }}>
@@ -739,7 +753,7 @@ export default function Home() {
           captured moments
         </Text>
 
-        <Box px={"6%"}>
+        <Box px={"3%"}>
           <SlideFadeEx />
         </Box>
       </Box>

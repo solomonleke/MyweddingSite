@@ -3,7 +3,6 @@ import OuterLayout from "../../Layouts/Index";
 import {
   Box,
   ChakraProvider,
-  
   VStack,
   Center,
   Flex,
@@ -28,7 +27,10 @@ const Proposal = () => {
   return (
     <OuterLayout>
       <Toppage text={"Proposal"} image={image1} />
-      <Box mt={"8rem"} px={"15%"}>
+      <Box
+        mt={["2%", "2%", "5%", "4rem", "4rem"]}
+        px={["2%", "2%", "5%", "10%", "15%"]}
+      >
         <Flex
           gap={4}
           wrap={"wrap"}
@@ -43,7 +45,7 @@ const Proposal = () => {
 
           <VStack spacing={8} align="center">
             <Text fontSize="2xl" fontWeight="bold">
-              Video Player
+              She said YES o o  !!!
             </Text>
             <Box
               maxW="md"
@@ -51,28 +53,38 @@ const Proposal = () => {
               borderRadius="lg"
               overflow="hidden"
             >
-              <video
-                controls
-                width="100%"
-                height="auto"
-                poster="path-to-poster-image.jpg" // Optional: Provide a poster image
+              <Box
+                overflow={"auto"}
+                h={"40rem"}
+                w="100%"
+                mt="10"
+                mx={"auto"}
+                objectFit={"contain"}
               >
-                <source src="path-to-your-video.mp4" type="video/mp4" />
-                {/* Add additional source elements for different video formats if needed */}
-                Your browser does not support the video tag.
-              </video>
+                <iframe
+                  width="400"
+                  height="450"
+                  src="https://www.youtube.com/embed/XJJ2LPTCInY?si=s9fzbVV7zLeHshnf"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+              </Box>
             </Box>
           </VStack>
         </Flex>
-        <Center
+        <Flex
           h={"10rem"}
           fontSize={"3rem"}
           mt={8}
           bgColor={"grey"}
           fontWeight={"500"}
+          justifyContent={"center"}
+          alignItems={"center"}
         >
-          Pre-Wedding Shoot
-        </Center>
+          <Text px={"8"}>Proposal</Text>
+        </Flex>
       </Box>
     </OuterLayout>
   );
