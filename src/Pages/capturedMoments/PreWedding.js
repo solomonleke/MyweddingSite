@@ -31,12 +31,13 @@ const PreWedding = () => {
           h={"10rem"}
           fontSize={"3rem"}
           mt={8}
-          bgColor={"grey"}
+          // bgColor={"grey"}
+          bg="#242424"
           fontWeight={"500"}
           justifyContent={"center"}
           alignItems={"center"}
         >
-          <Text p={"4"}>Pre-Wedding Shoot</Text>
+          <Text textColor={'white'} p={"4"}>Pre-Wedding Shoot</Text>
         </Flex>
       </Box>
     </OuterLayout>
