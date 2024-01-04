@@ -1,13 +1,11 @@
 import React from "react";
 import OuterLayout from "../../Layouts/Index";
 import { Box, Center, Flex, Image, Text } from "@chakra-ui/react";
-import image1 from "../../asset/moments/prewedding/M5.jpg";
+import image1 from "../../asset/moments/prewedding/M6.jpeg";
 import Toppage from "../../Components/Toppage";
 import { PreWeddingPictures } from "../../Utils/capturedUtils/momentsPictures";
 
 const PreWedding = () => {
-  
-
   return (
     <OuterLayout>
       <Toppage text={"Pre-Wedding Shoot"} image={image1} />
@@ -31,12 +29,19 @@ const PreWedding = () => {
           h={"10rem"}
           fontSize={"3rem"}
           mt={8}
-          bgColor={"grey"}
+          // bgColor={"grey"}
+          bg="#242424"
           fontWeight={"500"}
           justifyContent={"center"}
           alignItems={"center"}
         >
-          <Text p={"4"}>Pre-Wedding Shoot</Text>
+          <Text
+            textColor={"white"}
+            p={"4"}
+            fontSize={"3.3rem"}
+          >
+            Pre-Wedding Shoot
+          </Text> 
         </Flex>
       </Box>
     </OuterLayout>

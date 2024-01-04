@@ -34,18 +34,37 @@ import m33 from "../../asset/moments/telegram/tele18.jpeg";
 import m34 from "../../asset/moments/telegram/tele19.jpeg";
 import m35 from "../../asset/moments/telegram/tele20.jpeg";
 import m36 from "../../asset/moments/telegram/tele21.jpeg";
-import pre1 from "../../asset/moments/prewedding/M1.jpg";
-import pre2 from "../../asset/moments/prewedding/M2.jpg";
+import pre1 from "../../asset/moments/prewedding/M1.jpeg";
+import pre2 from "../../asset/moments/prewedding/M2.jpeg";
 import pre3 from "../../asset/moments/prewedding/M3.jpg";
-import pre4 from "../../asset/moments/prewedding/M4.jpg";
-import pre5 from "../../asset/moments/prewedding/M5.jpg";
-import pre6 from "../../asset/moments/prewedding/M6.jpg";
-import pre7 from "../../asset/moments/prewedding/M7.jpg";
-import pre8 from "../../asset/moments/prewedding/M8.jpg";
-import pre9 from "../../asset/moments/prewedding/M9.jpg";
-import pre10 from "../../asset/moments/prewedding/M10.jpg";
-import pre11 from "../../asset/moments/prewedding/M11.jpg";
-import pre12 from "../../asset/moments/prewedding/M12.jpg";
+import pre4 from "../../asset/moments/prewedding/M4.jpeg";
+import pre5 from "../../asset/moments/prewedding/M1.jpeg";
+import pre6 from "../../asset/moments/prewedding/M6.jpeg";
+import pre7 from "../../asset/moments/prewedding/M7.jpeg";
+import pre8 from "../../asset/moments/prewedding/M8.jpeg";
+import pre9 from "../../asset/moments/prewedding/M9.jpeg";
+import pre10 from "../../asset/moments/prewedding/M10.jpeg";
+import pre11 from "../../asset/moments/prewedding/M11.jpeg";
+import pre12 from "../../asset/moments/prewedding/M12.jpeg";
+import w1 from "../../asset/moments/Momoments/W.jpeg";
+import w2 from "../../asset/moments/Momoments/W2.jpeg";
+import w3 from "../../asset/moments/Momoments/W3.jpeg";
+import w4 from "../../asset/moments/Momoments/W4.jpeg";
+import w5 from "../../asset/moments/Momoments/W5.jpeg";
+import w6 from "../../asset/moments/Momoments/W6.jpeg";
+import w7 from "../../asset/moments/Momoments/W7.jpeg";
+import w8 from "../../asset/moments/Momoments/W8.jpeg";
+import w9 from "../../asset/moments/Momoments/W9.jpeg";
+import w10 from "../../asset/moments/Momoments/W10.jpeg";
+import w11 from "../../asset/moments/Momoments/W11.jpeg";
+import w12 from "../../asset/moments/Momoments/W12.jpeg";
+import w13 from "../../asset/moments/Momoments/W13.jpeg";
+import w14 from "../../asset/moments/Momoments/W14.jpeg";
+import w15 from "../../asset/moments/Momoments/W15.jpeg";
+import w16 from "../../asset/moments/Momoments/W16.jpeg";
+import w17 from "../../asset/moments/Momoments/W17.jpeg";
+import w18 from "../../asset/moments/Momoments/W18.jpeg";
+import w19 from "../../asset/moments/Momoments/W19.jpeg";
 
 export const MomentPictures = [
   { photo: m1 },
@@ -86,6 +105,25 @@ export const MomentPictures = [
   { photo: m34 },
   { photo: m35 },
   { photo: m36 },
+  { photo: w1 },
+  { photo: w2 },
+  { photo: w3 },
+  { photo: w4 },
+  { photo: w5 },
+  { photo: w6 },
+  { photo: w7 },
+  { photo: w8 },
+  { photo: w9 },
+  { photo: w10 },
+  { photo: w11 },
+  { photo: w12 },
+  { photo: w13 },
+  { photo: w14 },
+  { photo: w15 },
+  { photo: w16 },
+  { photo: w17 },
+  { photo: w18 },
+  { photo: w19 },
 ];
 
 export const PreWeddingPictures = [
