@@ -5,7 +5,7 @@ import picture from "../asset/image3.jpg";
 import { useNavigate } from "react-router-dom";
 import Moments from "../Pages/capturedMoments/Moments";
 import tele13 from "../asset/moments/telegram/tele13.jpeg";
-import image1 from "../../src/asset/moments/prewedding/M5.jpg";
+import image1 from "../../src/asset/moments/prewedding/M2.jpeg";
 // import MomentsProposalPreWedding from "./MomentsProposalPreWedding";
 
 function SlideFadeEx() {
