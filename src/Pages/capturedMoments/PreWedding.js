@@ -38,7 +38,7 @@ const PreWedding = () => {
           <Text
             textColor={"white"}
             p={"4"}
-            fontSize={"3.3rem"}
+            fontSize={{ base: "3xl", md: "4xl", lg: "4xl", xl: "4xl" }}
           >
             Pre-Wedding Shoot
           </Text> 
