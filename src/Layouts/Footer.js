@@ -46,64 +46,45 @@ export default function Footer() {
             fontWeight={"400"}
             color={"orange.orange400"}
           >
-            Email:
-            <Box as="span" color="#fff" fontWeight={"700"}>
+            Email: 
+            <Box as="span" position="relative" left="10px" color="#fff" fontWeight={"700"}>
               
-              lordsoliz@gmail.com
+               lordsoliz@gmail.com
             </Box>
           </Box>
-          <Flex wrap={"wrap"} gap={"12"}>
-          <Box
-            mt="10px"
-            fontSize={"14px"}
-            textAlign={["center", "center", "center", "left"]}
-            fontWeight={"400"}
-            color={"orange.orange400"}
-          >
-            {/* Call:{" "} */}
-            <Box as="span" color="#fff" fontWeight={"700"}>
-              Femi Femo - +234(703) 457 7229{" "}
-            </Box>
-          </Box>
-          <Box
-            mt="10px"
-            fontSize={"14px"}
-            textAlign={["center", "center", "center", "left"]}
-            fontWeight={"400"}
-            color={"orange.orange400"}
-          >
-            {/* Call:{" "} */}
-            <Box as="span" color="#fff" fontWeight={"700"}>
-              Kehinde - +234(703) 160 8571
-            </Box>
-          </Box>
-          </Flex>
-          <Flex wrap={"wrap"} gap={"12"}>
-          <Box
-            mt="10px"
-            fontSize={"14px"}
-            textAlign={["center", "center", "center", "left"]}
-            fontWeight={"400"}
-            color={"orange.orange400"}
-          >
-            {/* Call:{" "} */}
-            <Box as="span" color="#fff" fontWeight={"700"}>
-              Love - +234(703) 265 0334
-            </Box>
-          </Box>
-          <Box
-            mt="10px"
-            fontSize={"14px"}
-            textAlign={["center", "center", "center", "left"]}
-            fontWeight={"400"}
-            color={"orange.orange400"}
-          >
-            {/* Call:{" "} */}
-            <Box as="span" color="#fff" fontWeight={"700"}>
-              Obinna - +234(818) 187 8447
-            </Box>
-          </Box>
-          </Flex>
+          <Text
+           textAlign={["center", "center", "center", "left"]}
+           mt="10px"
+           fontSize={"14px"}
+           fontWeight={"400"}
+           color={"#fff"}
+          > Femi Femo - +234(703) 457 7229{" "}
+          </Text>
+          <Text
+           textAlign={["center", "center", "center", "left"]}
+           mt="10px"
+           fontSize={"14px"}
+           fontWeight={"400"}
+           color={"#fff"}
+          >  Love - +234(703) 265 0334
+          </Text>
+          <Text
+           textAlign={["center", "center", "center", "left"]}
+           mt="10px"
+           fontSize={"14px"}
+           fontWeight={"400"}
+           color={"#fff"}
+          >   Obinna - +234(818) 187 8447
+          </Text>
+          <Text
+           textAlign={["center", "center", "center", "left"]}
+           mt="10px"
+           fontSize={"14px"}
+           fontWeight={"400"}
+           color={"#fff"}
+          > Kehinde - +234(703) 160 8571
+          </Text>
+
         </Box>
         <Box w={["100%", "100%", "100%", "32%", "32%"]} color={"#fff"}>
           <Box
