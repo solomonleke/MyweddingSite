@@ -23,9 +23,9 @@ const FaithListCard = () => {
         <Text >Wishes - {faithListCard.length}</Text>
         <Text>Already Fulfilled - 0</Text>
        </HStack> 
-      <Flex mt="12px" wrap={"wrap"} gap={8} justifyContent={"space-between"} width={"100%"} >
+      <Flex mt="12px" wrap={"wrap"}  justifyContent={"space-between"} width={"100%"} >
         {faithListCard.map((item, Index) => (
-          <Box key={Index} minWidth={"23rem"} boxShadow={'13px 17px 15px -3px rgba(0,0,0,0.1)'}  maxWidth={"23rem"} >
+          <Box mt="22px" key={Index}  boxShadow={'13px 17px 15px -3px rgba(0,0,0,0.1)'}  w={["100%","100%","48%","48%","32%",]} >
             <Box>
               <Image w={"100%"} borderRadius={"8px"} h={"100%"} src={item.itemImg} />
             </Box>

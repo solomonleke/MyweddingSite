@@ -50,6 +50,11 @@ export default function NavBar() {
       icon: <BiSolidContact />,
     },
     {
+      text: "Hotel Bookings",
+      link: "/hotel-bookings",
+      icon: <BiSolidContact />,
+    },
+    {
       text: "FAQs",
       link: "/faqs",
       icon: <BiSolidContact />,

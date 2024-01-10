@@ -10,6 +10,7 @@ import Moments from '../Pages/capturedMoments/Moments'
 import PreWedding from '../Pages/capturedMoments/PreWedding'
 import Proposal from '../Pages/capturedMoments/Proposal'
 import Ourfriends from '../Pages/OurFriendsExpanded/Ourfriends'
+import HotelBookings from '../Pages/HotelBookings'
 
 
 
@@ -22,6 +23,7 @@ export default function IndexRoutes() {
             <Route path='/faqs' element={<Faq/>}/>
             <Route path='/gift-us' element={<GiftUs/>}/>
             <Route path='/moments' element={<Moments/>}/>
+            <Route path='/hotel-bookings' element={<HotelBookings/>}/>
             <Route path='/wedding-info' element={<WeddingInfo/>}/>
 
             <Route path='/moments' element={<Moments/>}/>
