@@ -40,48 +40,66 @@ const HostelBookings = () => {
                 </Flex>
             </Box>
 
-            <Center fontSize={["1.5rem","1.5rem","1.5rem","2rem"]} mt={12} color={"#242424"}>
-                List of Hotels Available 
+            <Center fontSize={["1.5rem", "1.5rem", "1.5rem", "2rem"]} mt={12} color={"#242424"}>
+                List of Hotels Available
             </Center>
-           
-        
-            <Stack  spacing={"22px"} mx="6%">
+
+
+            <Stack spacing={"22px"} mx="6%">
 
                 <HotelList
                     name={"Kriscourt hotel"}
                     ratings={"5 min (2.6 km) via Road 8"}
                     location={"Road 7 Gate, 1 Hezekiah Oluwasanmi Road, Ife 220101, Osun"}
-                    map={ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.507140374063!2d4.520417073657798!3d7.519528710790838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103830b0bc54e7a5%3A0x8a02b9ce6c8d9fa1!2sKrisCourt%20Hotel!5e0!3m2!1sen!2sng!4v1704870772075!5m2!1sen!2sng"
-                    width="1000" height="350" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>}
-                    cat1={"DELUX"}
+                    map={<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.507140374063!2d4.520417073657798!3d7.519528710790838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103830b0bc54e7a5%3A0x8a02b9ce6c8d9fa1!2sKrisCourt%20Hotel!5e0!3m2!1sen!2sng!4v1704870772075!5m2!1sen!2sng"
+                        width="1000" height="350" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>}
+                    cat1={"DELUXe"}
                     cat2={"SUPERIOR"}
                     cat3={"EXCUTIVE SUITE"}
-                    price1={"36,300"}
-                    price2={"46,200"}
-                    price3={"50,600"}
+                    price1={"N 36,300/ per night"}
+                    price2={"N 46,200/ per night"}
+                    price3={"N 50,600/ per night"}
                     cont1={"+234 706 239 7784"}
                     cont2={"+234 803 313 7401"}
-                 
+
                 />
                 <HotelList
                     name={"NACETEM Guest house"}
                     ratings={"9 min (5.9 km) via Adesoji Aderemi Rd"}
                     location={"GG4F+CCX, Ife 220101, inside OAU, Osun"}
                     map={<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15822.273166070077!2d4.513001117382806!3d7.512815251789109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103830d5cdd0e4ef%3A0x79271d75a67dc8a5!2sNACETEM%20Guest%20house!5e0!3m2!1sen!2sng!4v1704874005100!5m2!1sen!2sng"
-                     width="1000" height="350" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>}
+                        width="1000" height="350" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>}
                     cat1={"Basic"}
-                    cat2={"Delux"}
-                    price1={"8,500"}
-                    price2={"12,000"}
+                    cat2={"Deluxe"}
+                    price1={"N 8,500/ per night"}
+                    price2={"N 12,000/ per night"}
                     cont1={"+234 703 498 1514"}
                     cont2={"+234 706 639 4000 "}
-                 
+
+                />
+                <HotelList
+                    name={"OAU Conference center"}
+                    ratings={"1 min (500.0 m) via Road 8"}
+                    location={"GGFJ+MC9, Road 8, Kajola 220103, Osun"}
+                    map={<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.4648139990886!2d4.528536173657838!3d7.524172010729396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103830e7e405e827%3A0x3d54d2633eba7767!2sO.A.U.%20Conference%20center!5e0!3m2!1sen!2sng!4v1704885805073!5m2!1sen!2sng"
+                        width="1000" height="350" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>}
+                    cat1={"Single Deluxe"}
+                    cat2={"Mini suite"}
+                    cat3={"Executive double"}
+                    cat4={"chalet"}
+                    price1={"N 40,000/ per night"}
+                    price2={"N 25,000/ per night"}
+                    price3={"N 15,000/ per night"}
+                    price4={"N 17,000/ per night"}
+                    cont1={"+234 803 881 2512"}
+
+
                 />
 
-             
+
             </Stack>
 
-           
+
         </OuterLayout>
     );
 };

@@ -1,7 +1,7 @@
 import { Box, Flex, HStack, Spacer, Stack, Text } from '@chakra-ui/react'
 import React from 'react'
 
-export default function HotelList({name, ratings, location, map, cat1,cat2,cat3,price1,price2,price3, cont1,cont2}) {
+export default function HotelList({name, ratings, location, map, cat1,cat2,cat3,cat4,price1,price2,price3,price4, cont1,cont2}) {
     return (
         <Box mt='32px' bg={"#fee"} rounded={"10px"} border={"1px solid black"} boxShadow={'4px 12px 12px -11px rgba(58,8,0,0.1)'} px={["10px", "10px", "25px", "45px", "45px"]} py="10px" >
 
@@ -43,6 +43,10 @@ export default function HotelList({name, ratings, location, map, cat1,cat2,cat3,
                     <HStack>
                         <Text>{cat3}</Text>
                         <Text>{price3}</Text>
+                    </HStack>
+                    <HStack>
+                        <Text>{cat4}</Text>
+                        <Text>{price4}</Text>
                     </HStack>
                 </Stack>
 
