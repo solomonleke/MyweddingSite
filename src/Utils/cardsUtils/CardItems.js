@@ -10,6 +10,7 @@
  import sade from "../../asset/sade.jpg"
  import olasupo from "../../asset/olasupo.jpg"
  import gabriel from "../../asset/gabriel.jpg"
+ import festus from "../../asset/festus.jpg"
 export const cardItems = [
   {
     Name: "Obinna Edmund",
@@ -69,13 +70,11 @@ export const cardItems = [
   {
     Name: "GABRIEL CHRISTIANAH",
     photo: christi,
-    summary: "epele sir ",
+    summary: "The bride is a sweet, brilliant and no nonsense lady. Always... ",
     category: "BRIDESMAID",
-    story: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-     ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-      in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-       non proident, sunt in culpa qui officia deserunt mollit anim id est laborum`,
+    story: `The bride is a sweet, brilliant and no nonsense lady. Always coming through for people around.
+    I pray the lord bless the marriage and be the head of their home. No evil will befall the marriage and their love for each other will wax stronger each day
+    `,
   },
   {
     Name: "Adeleke Ifeoluwa",
@@ -103,12 +102,11 @@ export const cardItems = [
   {
     Name: "Ogungbire Gabriel",
     photo: gabriel,
-    summary: "Moyin is loving, brilliant, energetic, funny, big-hearted...",
+    summary: "Seriously it's an amazing and wonderful gift from God...",
     category: "GROOMSMAN",
-    story: `Moyin is loving, brilliant, energetic, funny, big-hearted, talented and always ready to help even if it is less convenient for him.
-    I believe it was Moyin's and Ireti's selfless nature and their ability to give more of them to others that brought them together. 
-    This is the kind of Love and Union that lasts forever.
-    I wish the couple all the Best.`,
+    story: `Seriously it's an amazing and wonderful gift from God to have this couple as friends
+    Moyin is a nice loving brilliant and a good hearted man but a raw hard man that doesn't take no for an answer which by the help of God got connected to a loving kind and a caring wide hearted good character woman seriously ireti is an amazing woman have ever seen so far 
+    So happy for the couple`,
   },
   {
     Name: "Achidi Thelma",
@@ -120,6 +118,15 @@ export const cardItems = [
      ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
       in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum`,
+  },
+  {
+    Name: "Aboderin Festus",
+    photo: festus,
+    summary: "Seriously it's an amazing and wonderful gift from God...",
+    category: "GROOMSMAN",
+    story: `Seriously it's an amazing and wonderful gift from God to have this couple as friends
+    Moyin is a nice loving brilliant and a good hearted man but a raw hard man that doesn't take no for an answer which by the help of God got connected to a loving kind and a caring wide hearted good character woman seriously ireti is an amazing woman have ever seen so far 
+    So happy for the couple`,
   },
   {
     Name: "Esan Folasade",
