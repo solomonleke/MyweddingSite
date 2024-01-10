@@ -2,6 +2,14 @@
  import obinna from "../../asset/bestman.jpg"
  import rotimi from "../../asset/rotimi.jpg"
  import chinco from "../../asset/chinco.jpg"
+ import tinu from "../../asset/tinu.jpg"
+ import christi from "../../asset/christi.jpg"
+ import ife from "../../asset/ife.jpg"
+ import ope from "../../asset/ope.jpg"
+ import thelma from "../../asset/thelma.jpg"
+ import sade from "../../asset/sade.jpg"
+ import olasupo from "../../asset/olasupo.jpg"
+ import gabriel from "../../asset/gabriel.jpg"
 export const cardItems = [
   {
     Name: "Obinna Edmund",
@@ -29,13 +37,23 @@ export const cardItems = [
   {
     Name: "Rotimi Akanle",
     photo: rotimi,
-    summary: "sunt in culpa qui officia deserunt mo",
+    summary: "Moyin is loving, brilliant, energetic, funny, big-hearted...",
     category: "GROOMSMAN",
+    story: `Moyin is loving, brilliant, energetic, funny, big-hearted, talented and always ready to help even if it is less convenient for him.
+    I believe it was Moyin's and Ireti's selfless nature and their ability to give more of them to others that brought them together. 
+    This is the kind of Love and Union that lasts forever.
+    I wish the couple all the Best.`,
+  },
+  {
+    Name: "Akinsolu Tinuola",
+    photo: tinu,
+    summary: "epele sir ",
+    category: "BRIDESMAID",
     story: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
      ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
       in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-       non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+       non proident, sunt in culpa qui officia deserunt mollit anim id est laborum`,
   },
   {
     Name: "Omirhobo Richard (Chinco)",
@@ -49,25 +67,82 @@ export const cardItems = [
      sunt in culpa qui officia deserunt mollit anim id est laborum.`,
   },
   {
-    Name: "MAKINDE",
-    photo: "https://bit.ly/sage-adebayo",
+    Name: "GABRIEL CHRISTIANAH",
+    photo: christi,
     summary: "epele sir ",
     category: "BRIDESMAID",
-    link:"www.facebook.com",
-    story: `About the Bride (Olabisi):
-    Sis Olabisi, the beautiful lady with the charmingly tiny voice, has always been a picture of grace and elegance. She’s the kind of person you instantly notice in church, and her calm and collected nature is truly admirable. Thank you, Olabisi, for your initial “shakara” before saying yes to my wonderful egbon (brother).
-    
-    About the Groom (Mr. Akin):
-    Mr. Akin, on the other hand, surprised me with his warmth and sense of humor. My first impression was that he was a quiet man, but boy, was I wrong! Our first conversation after a church service revealed a supportive and fun-loving side to him. He occasionally teases me, but beneath it all, I see a true gentleman. Plus, Mr. Akin’s knowledge knows no bounds – he’s the bookworm of the duo. It’s an absolute privilege to be your hype woman, Mr Akin!
-    
-    How They Met and Love Story:
-    Their love story is a testament to the unpredictable and beautiful nature of life’s twists and turns. When they first crossed paths in church, Sis Olabisi was a picture of grace and independence, content in her own world. She had no intentions of diving into a romantic relationship, and I distinctly remember her initial hesitation.
-    
-    But, love has its own plans. My brother would not have it 😂😂, their paths continued to cross, and they found themselves drawn to each other in ways they never expected. Slowly but surely, their friendship deepened into a bond that neither could resist. It’s a love story that defies expectations and proves that sometimes, the heart knows best.
-    
-    Today, as we celebrate their union, we can’t help but be inspired by the love that grew against all odds, reminding us that true love is often found when we least expect it.
-    
-    As they embark on this journey as a married couple, I offer my heartfelt congratulations to Sis Olabisi and Mr. Akin. I look forward with great anticipation to the amazing things that GOD will continue to do in the lives of this power couple and the beautiful family that’s about to be born. It only gets better from here.`,
+    story: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+     ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+      in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+       non proident, sunt in culpa qui officia deserunt mollit anim id est laborum`,
   },
+  {
+    Name: "Adeleke Ifeoluwa",
+    photo: ife,
+    summary: "Welcome to the celebration of love between Moyin and Ireti we...",
+    category: "GROOMSMAN",
+    story: `Welcome to the celebration of love between Moyin and Ireti we see a perfect blend between them.
+     Together, they create a harmonious symphony that resonates with joy, laughter, and unwavering love. 
+     Their love story is an inspiration, reminding us that true love knows no bounds. Through thick and thin,
+      Moyin and ireti have stood by each other, supporting and cherishing the unique bond they share.
+       As they embark on this beautiful journey of marriage, let us surround them with our love, blessings,
+        and good wishes. May their days be filled with endless laughter, shared dreams, and a love that deepens with each passing moment.`,
+  },
+  {
+    Name: "Badejo Mosopefoluwa",
+    photo: ope,
+    summary: "epele sir ",
+    category: "BRIDESMAID",
+    story: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+     ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+      in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+       non proident, sunt in culpa qui officia deserunt mollit anim id est laborum`,
+  },
+  {
+    Name: "Ogungbire Gabriel",
+    photo: gabriel,
+    summary: "Moyin is loving, brilliant, energetic, funny, big-hearted...",
+    category: "GROOMSMAN",
+    story: `Moyin is loving, brilliant, energetic, funny, big-hearted, talented and always ready to help even if it is less convenient for him.
+    I believe it was Moyin's and Ireti's selfless nature and their ability to give more of them to others that brought them together. 
+    This is the kind of Love and Union that lasts forever.
+    I wish the couple all the Best.`,
+  },
+  {
+    Name: "Achidi Thelma",
+    photo: thelma,
+    summary: "epele sir ",
+    category: "BRIDESMAID",
+    story: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+     ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+      in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+       non proident, sunt in culpa qui officia deserunt mollit anim id est laborum`,
+  },
+  {
+    Name: "Esan Folasade",
+    photo: sade,
+    summary: "epele sir ",
+    category: "BRIDESMAID",
+    story: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+     ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+      in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+       non proident, sunt in culpa qui officia deserunt mollit anim id est laborum`,
+  },
+  {
+    Name: "Olasupo Aishat",
+    photo: olasupo,
+    summary: "epele sir ",
+    category: "BRIDESMAID",
+    story: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+     ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+      in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+       non proident, sunt in culpa qui officia deserunt mollit anim id est laborum`,
+  },
+  
 ];
 

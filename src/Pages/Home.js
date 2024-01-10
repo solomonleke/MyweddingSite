@@ -134,8 +134,7 @@ export default function Home() {
           <Box w={["90%", "80%", "60%", "55%", "55%"]} color="#fff">
             <Text fontSize={["20px", "20px", "25px", "30px", "25px"]} mt="32px">
               {" "}
-              "Love is our private island; It is where we both meet in secret,
-              away from the hassles and frictions of life"
+              "Whatever Our Souls are made of HIS and MINE are the same ! Together , Forever and Always"
             </Text>
           </Box>
         </Flex>
@@ -557,12 +556,10 @@ export default function Home() {
               Asking her out
             </Text>
             <Text mb={"2rem"} mt={"1rem"} fontSize={"1.2rem"} color={"grey"}>
-              We met each other through a mutual friend on Sunday 13th of
-              December 2020. It was after camp meeting in our local church. I
-              was speaking with a friend after service when my friend just came
-              over to me and said “I have found your wife.” Of course, I laughed
-              over it as prior before then, both of us were trying to be on the
-              lookout for ladies we could be in a relationship with. I just
+           I didn't even think she wasn't mine yet , I was already assuming , but she kept giving me clues 
+             to let me know I had not done the right thing . So one evening , I asked 
+             the question and as usual she laughed about it , thought I was joking , but she said Yes. 
+             And we took it from there , I kept the date from that day ."The day she she officially became MINE"
             </Text>
             <Box h={"40rem"} w="100%" mt="10" mx={"auto"}>
               <Image
@@ -586,18 +583,10 @@ export default function Home() {
               Our Relationship
             </Text>
             <Text mb={"2rem"} mt={"1rem"} fontSize={"1.2rem"} color={"grey"}>
-              We met each other through a mutual friend on Sunday 13th of
-              December 2020. It was after camp meeting in our local church. I
-              was speaking with a friend after service when my friend just came
-              over to me and said “I have found your wife.” Of course, I laughed
-              over it as prior before then, both of us were trying to be on the
-              lookout for ladies we could be in a relationship with. I just
-              shrugged it off, but he insisted the girl speaks Queen’s English
-              and is befitting for me. Still not sounding convincing enough, he
-              dragged me to where she was sitting and introduced us. “I’m Akin,
-              it’s nice meeting You”, I said and hurriedly looked for an excuse
-              to “avoid” the girl. My first impression was that she was going be
-              very proud with her poise and English. Compared to other ladies I
+            One thing I'm sure of, is God made our Union , Sometimes I look at us and think "what a couple ".
+             The joy , the Thrill , The fights , The sweetness !,Its the way he loves me ,
+              The way she pampers me , The way we make each other Happy, The way Our goals Align  
+              . Its everything and more ! We could never have wanted a  better Relationship .
             </Text>
             <Box h={"40rem"} w="100%" mt="10" mx={"auto"}>
               <Image
@@ -621,16 +610,24 @@ export default function Home() {
               Our Proposal
             </Text>
             <Text mb={"2rem"} mt={"1rem"} fontSize={"1.2rem"} color={"grey"}>
-              We met each other through a mutual friend on Sunday 13th of
-              December 2020. It was after camp meeting in our local church. I
-              was speaking with a friend after service when my friend just came
-              over to me and said “I have found your wife.” Of course, I laughed
-              over it as prior before then, both of us were trying to be on the
-              lookout for ladies we could be in a relationship with. I just
-              shrugged it off, but he insisted the girl speaks Queen’s English
-              and is befitting for me. Still not sounding convincing enough, he
-              after the bus was about to move, I requested for her phone number
-              which she called with everybody looking at me.
+            -Moyinoluwa- <br/>
+            So I had been Planning THE PROPOSAL in my head for a long time , but my detective babe wouldn't allow me,
+             she would see every of my plans on my phone and tease me about it.
+              So I chose to do it on a casual sunday after church service with a few friends,
+               just drinks and snacks , even though she still caught me but she played along,
+                The proposal was at a cool restaurant in Ibadan, I went ahead before her to the restaurant very close to church,
+                 had them write will you marry me on a tray with some cup cakes , bought her favourite parfait,
+                  went on one knee and asked her to marry me in the presence of our friends.
+                   Simple and Intimate it was But she said YES , One of the best moments of our Lives  ! We are getting Married!!!!!!!!!!
+                   <br/>
+
+                   -Iretioluwa- <br/>
+                   I knew what they wanted to do, I knew he was planning it all along, I even sent him pictures of the kind of rings I liked 😝🤣.
+                    That sunday, as he said lets go and chill, Chill?, after Sunday Service?, even after making me do my nails a day before,
+                     I just Knew sha. But it was lovely, it was the effort and I said Yes even after some bullying ( in the video ). I Can't wait to walk down the Aisle. 💃
+
+
+
             </Text>
 
             <Box h={"40rem"} w="100%" mt="10" mx={"auto"}>
@@ -660,13 +657,13 @@ export default function Home() {
               We are getting Married
             </Text>
             <Text mb={"2rem"} mt={"1rem"} fontSize={"1.2rem"} color={"grey"}>
-              We met each other through a mutual friend on Sunday 13th of
-              December 2020. It was after camp meeting in our local church. I
-              was speaking with a friend after service when my friend just came
-              over to me and said “I have found your wife.” Of course, I laughed
-              over it as prior before then, both of us were trying to be on the
-              lookout for ladies we could be in a relationship with. I just
-              shrugged it off, but he insisted the girl speaks Queen’s English
+            We are getting married and we are happy to have you celebrate with us. We know you want to give us gifts and some of you are wondering what to gift us.
+             We would be very excited to have you give us money 😉, Your gifts can be monetized. But if not, take a 
+             look at a list of some things that would put a smile on our faces and select anyone you would love to gift us. 
+             THANK YOU for starting this journey with us . We are Grateful!
+
+             <br/>
+             Iretioluwa and Moyinoluwa
             </Text>
             <Box h={"40rem"} w="100%" mt="10" mx={"auto"}>
               <Image

@@ -37,7 +37,7 @@ const Card = ({ data }) => {
               <Text fontSize={"1.2rem"} fontWeight={600}  color={ "orange.orange500" }>
                 {card.Name}
               </Text>
-              <Text>{card.summary}</Text>
+              <Text fontSize="14px" fontWeight="400">{card.summary}</Text>
             </Box>
           </Box>
         ))}
