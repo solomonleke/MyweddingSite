@@ -31,7 +31,7 @@ const Card = ({ data }) => {
                 {card.category}
               </Text>
 
-              <Image   w={"100%"} src={card.photo} />
+              <Image height={"350px"} objectPosition={"center"} objectFit={"cover"}  w={"100%"} src={card.photo} />
             </Box>
             <Box pt="10px">
               <Text fontSize={"1.2rem"} fontWeight={600}  color={ "orange.orange500" }>
