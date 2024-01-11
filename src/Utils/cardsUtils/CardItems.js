@@ -13,6 +13,8 @@
  import festus from "../../asset/festus.jpg"
  import david from "../../asset/david.jpg"
  import bolu from "../../asset/bolu.jpg"
+ import emma from "../../asset/emma.jpg"
+ import femi from "../../asset/femi.jpg"
 export const cardItems = [
   {
     Name: "Obinna Edmund",
@@ -125,11 +127,23 @@ export const cardItems = [
   {
     Name: "Aboderin Festus",
     photo: festus,
-    summary: "Seriously it's an amazing and wonderful gift from God...",
+    summary: "The groom is my MD at church! One who is sound in wisdom and...",
     category: "GROOMSMAN",
-    story: `Seriously it's an amazing and wonderful gift from God to have this couple as friends
-    Moyin is a nice loving brilliant and a good hearted man but a raw hard man that doesn't take no for an answer which by the help of God got connected to a loving kind and a caring wide hearted good character woman seriously ireti is an amazing woman have ever seen so far 
-    So happy for the couple`,
+    story: `The groom is my MD at church! One who is sound in wisdom and blessed with understanding how to relate with humans fast! Skilled in what he does, he has been a motivation to folks around and always driving towards hitting the best! He is a joyful giver, I won't lie!
+
+    Oh, the bride is a chorister in my church too. I met them during my service year! She is sacrificial, understanding, and true to her words.
+    
+    This couple is one to envy, I want to be like you when I grow up😁😁!
+    `,
+  },
+  {
+    Name: "Odesanya Obafemi",
+    photo: femi,
+    summary: "First met solomon and ireti , in gram, and I...",
+    category: "GROOMSMAN",
+    story: `First met solomon and ireti , in gram, and I can say , they truly cherish each other so much,
+      they do virtually  eveeything together, and they are inseparable,. Its truly a union made in heaven
+    `,
   },
   {
     Name: "Esan Folasade",
@@ -171,6 +185,15 @@ export const cardItems = [
        " Moyin you are all drenched how will you get home with your cloths all wet" man didn't even mind he 
        still went back into the pool swimming and having his fun. What a down to earth hilarious man.
         I wish my bro the very best in his marriage and all his endeavours, as he starts a new home with his wife. Enjoy man!`,
+  },
+  {
+    Name: "Emmanuel Anthony",
+    photo: emma,
+    summary: "Solomon is a kind and amazing guy. Within the little time...",
+    category: "GROOMSMAN",
+    story: `Solomon is a kind and amazing guy. Within the little time of knowing Solomon, he has proven to be a cheerful,
+     helpful and resourceful human. It's certain he'll make a great
+      husband to --insert wife name--. I wish you a happy married life bro!`,
   },
   
 ];
