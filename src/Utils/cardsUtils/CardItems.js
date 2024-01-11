@@ -11,6 +11,8 @@
  import olasupo from "../../asset/olasupo.jpg"
  import gabriel from "../../asset/gabriel.jpg"
  import festus from "../../asset/festus.jpg"
+ import david from "../../asset/david.jpg"
+ import bolu from "../../asset/bolu.jpg"
 export const cardItems = [
   {
     Name: "Obinna Edmund",
@@ -111,13 +113,15 @@ export const cardItems = [
   {
     Name: "Achidi Thelma",
     photo: thelma,
-    summary: "epele sir ",
+    summary: "I met Ireti when I was an intern at Access Bank...",
     category: "BRIDESMAID",
-    story: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-     ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-      in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-       non proident, sunt in culpa qui officia deserunt mollit anim id est laborum`,
+    story: `I met Ireti when I was an intern at Access Bank in Ibadan and we clicked instantly. 
+    She was one of the few people who actually took time to teach me and also made it fun. I had a
+     good stay at the place because of her 🥰🥰.  I wish them the most happy and fruitful home. 
+     I know that marriage is not an easy journey and it has so many bumps, trials and temptations.
+      But God would give them the strength and wisdom to navigate this new journey 🙏🏾
+
+    `,
   },
   {
     Name: "Aboderin Festus",
@@ -140,15 +144,34 @@ export const cardItems = [
        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum`,
   },
   {
+    Name: "David Adeleke",
+    photo: david,
+    summary: "Moyin and Ireti are a wonderful couple, a match made...",
+    category: "GROOMSMAN",
+    story: `Moyin and Ireti are a wonderful couple, a match made in heaven.The groom, Moyin is the most wonderful person, funny guy and big hearted, and the bride Ireti is the nicest person caring and also funny.
+    May your marriage be filled with joy, understanding, and countless shared adventures`,
+  },
+  {
     Name: "Olasupo Aishat",
     photo: olasupo,
-    summary: "epele sir ",
+    summary: "Ire is a very good friend of mine, we’ve... ",
     category: "BRIDESMAID",
-    story: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-     ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-      in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-       non proident, sunt in culpa qui officia deserunt mollit anim id est laborum`,
+    story: `Ire is a very good friend of mine, we’ve known each other for over 12 years.
+     Ire is a friend that provides  you with support to rely on during troubled situations, she’s empathetic fun to be with.
+     Wishing you a lifetime of love and happiness ahead. Warmest wishes on your big day and as you start a new chapter of life and love together. Lots of love today and beyond.`,
+  },
+  {
+    Name: "Adebolu Smart (DBS)",
+    photo: bolu,
+    summary: "Moyin and I have been friends for 9-10yrs and I...",
+    category: "GROOMSMAN",
+    story: `Moyin and I have been friends for 9-10yrs and I must say, he is more of a brother
+     than a friend, Moyin is so real, he doesn't hide anything, and quite playful. I can never
+      forget the day we went for a pool party back then years back, no one brought a swim suit along,
+       regardless Moyin had to enter the pool with his cloths on, like that was so hilarious, i was like 
+       " Moyin you are all drenched how will you get home with your cloths all wet" man didn't even mind he 
+       still went back into the pool swimming and having his fun. What a down to earth hilarious man.
+        I wish my bro the very best in his marriage and all his endeavours, as he starts a new home with his wife. Enjoy man!`,
   },
   
 ];

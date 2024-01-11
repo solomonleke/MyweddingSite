@@ -559,7 +559,7 @@ export default function Home() {
            I didn't even think she wasn't mine yet , I was already assuming , but she kept giving me clues 
              to let me know I had not done the right thing . So one evening , I asked 
              the question and as usual she laughed about it , thought I was joking , but she said Yes. 
-             And we took it from there , I kept the date from that day ."The day she she officially became MINE"
+             And we took it from there , I kept the date from that day ."The day she officially became MINE"
             </Text>
             <Box h={"40rem"} w="100%" mt="10" mx={"auto"}>
               <Image
