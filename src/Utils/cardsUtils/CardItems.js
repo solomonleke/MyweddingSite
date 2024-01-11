@@ -193,7 +193,7 @@ export const cardItems = [
     category: "GROOMSMAN",
     story: `Solomon is a kind and amazing guy. Within the little time of knowing Solomon, he has proven to be a cheerful,
      helpful and resourceful human. It's certain he'll make a great
-      husband to --insert wife name--. I wish you a happy married life bro!`,
+      husband to Iretioluwa. I wish you a happy married life bro!`,
   },
   
 ];
