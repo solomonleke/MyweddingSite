@@ -14,7 +14,7 @@ const Card = ({ data }) => {
 
   return (
     <>
-      <Flex justify={"space-between"}  wrap="wrap" w={"100%"}>
+      <Flex justify={"space-between"} cursor={"pointer"}  wrap="wrap" w={"100%"}>
         {data.map((card, Index) => (
 
           <Box mt={5} w={["100%","48%","32%","24%","24%"]} key={Index} onClick={() => HandleClick(card)}>

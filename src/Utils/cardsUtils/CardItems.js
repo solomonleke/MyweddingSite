@@ -15,6 +15,7 @@
  import bolu from "../../asset/bolu.jpg"
  import emma from "../../asset/emma.jpg"
  import femi from "../../asset/femi.jpg"
+ import dayo from "../../asset/dayo.jpg"
 export const cardItems = [
   {
     Name: "Obinna Edmund",
@@ -103,6 +104,20 @@ export const cardItems = [
     The 2 of them will make an amazing home and I wish them all the benefit attached to marriage.`,
   },
   {
+    Name: "Adekunle Adedayo",
+    photo: dayo,
+    summary: "What I know about the groom: I happen to know the groom through his...",
+    category: "GROOMSMAN",
+    story: `What I know about the groom: I happen to know the groom through his dad who 
+    I render a service to. The groom is someone who is very hardworking and have a leadership skill,
+     he is also someone that care about the growth of the people around him. I can remember vividly
+      the first time we met and had a little chat, he mentioned a friend of his that he’ll like me to 
+      carry along, due to the fact that his friend has a skill that is in line with what I do, I was really 
+      touched by that good intention of his. He also shows good hospitality, because he dished me a sumptuous 
+      meal with chilled water the first day we met 😂
+    `,
+  },
+  {
     Name: "Ogungbire Gabriel",
     photo: gabriel,
     summary: "Seriously it's an amazing and wonderful gift from God...",
@@ -139,22 +154,28 @@ export const cardItems = [
   {
     Name: "Odesanya Obafemi",
     photo: femi,
-    summary: "First met solomon and ireti , in gram, and I...",
+    summary: "First met solomon and ireti , in GRAM, and I can say , they truly cherish each ...",
     category: "GROOMSMAN",
-    story: `First met solomon and ireti , in gram, and I can say , they truly cherish each other so much,
-      they do virtually  eveeything together, and they are inseparable,. Its truly a union made in heaven
+    story: `First met solomon and ireti , in GRAM, and I can say , they truly cherish each other so much,
+      they do virtually  everything together, and they are inseparable,. Its truly a union made in heaven
     `,
   },
   {
     Name: "Esan Folasade",
     photo: sade,
-    summary: "epele sir ",
+    summary: "I have known Ireti for over ten years now and one thing character...",
     category: "BRIDESMAID",
-    story: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-     ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-      in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-       non proident, sunt in culpa qui officia deserunt mollit anim id est laborum`,
+    story: `About the bride:
+    The bride - Iretioluwa is a good girl 😀.
+    I have known Ireti for over ten years now and one thing character trait that is constant with her -her good heart and caring nature.
+    She is a good friend and willing to go all out for her loved ones.
+    It is very hard to get angry at Ireti. She is such a loveable person, jovial and very lively.
+    She is kind.
+    It is such a blessing to know you and blessed is the man that found you.
+    
+    I pray that as you journey into this new phase of life, the Lord goes with you.The Lord gives you the grace and strength to be a pleasing wife to your husband.
+    Your children shall surround your table.Your home is blessed. I wish you a blissful and happy married life 😘
+    `,
   },
   {
     Name: "David Adeleke",
@@ -167,7 +188,7 @@ export const cardItems = [
   {
     Name: "Olasupo Aishat",
     photo: olasupo,
-    summary: "Ire is a very good friend of mine, we’ve... ",
+    summary: "Ire is a very good friend of mine, we’ve known each other for over 12 years... ",
     category: "BRIDESMAID",
     story: `Ire is a very good friend of mine, we’ve known each other for over 12 years.
      Ire is a friend that provides  you with support to rely on during troubled situations, she’s empathetic fun to be with.
