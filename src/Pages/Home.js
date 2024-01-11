@@ -92,10 +92,10 @@ export default function Home() {
   }, []);
 
   const bridesmaids = cardItems.filter(
-    (item) => item.category === "BRIDESMAID"
+    (item) => item.category === "Maid of honour" || item.category === "Chief bridesmaid"
   );
 
-  const GroomsMen = cardItems.filter((item) => item.category === "GROOMSMAN");
+  const GroomsMen = cardItems.filter((item) => item.category === "GROOMSMAN" || item.category === "Best man");
 
   return (
     <OuterLayout>
@@ -711,7 +711,7 @@ export default function Home() {
 
             <Tab>Grooms Men</Tab>
 
-            <Tab>Brides Maid</Tab>
+            <Tab>Maid of honour</Tab>
           </TabList>
 
           <TabPanels>

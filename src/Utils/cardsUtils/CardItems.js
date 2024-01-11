@@ -21,7 +21,7 @@ export const cardItems = [
     Name: "Obinna Edmund",
     photo: obinna,
     summary: "Fortunately for me I met Ireti first during our service year(2019)...",
-    category: "GROOMSMAN",
+    category: "Best man",
     story: `Fortunately for me I met Ireti first during our service year(2019), our camp in Iseyin, Oyo state.
      Ireti and our other friend Jennifer were always teasing one of the soldiers in the camp, they were funny tsha..Fast forward to when we finished camp and were posted to Ibadan north LGA. We got to our LGA and I saw Ireti and Jennifer and I was glad to see a familiar face, I tsha dropped a message for her tsha and we started talking,
      little did I know that was the begining of a relationship I cherish now and today and tomorrow.
@@ -34,7 +34,7 @@ export const cardItems = [
     Name: "Tofunmi Ajao",
     photo: tofunmi,
     summary: "Ireti and Moyin are an amazing couple. Their love is pure and admirable...",
-    category: "BRIDESMAID",
+    category: "Chief bridesmaid",
     story: `Ireti and Moyin are an amazing couple. Their love is pure and admirable.
     A perfect definition of Bonnie and Clyde 😅. They are sweet and also care about everyone in their cycle.
     I wish them nothing but happiness and marital bliss. May God bless them with wonderful kids, like 1 million 😂. I love you guys.
@@ -54,7 +54,7 @@ export const cardItems = [
     Name: "Akinsolu Tinuola",
     photo: tinu,
     summary: "epele sir ",
-    category: "BRIDESMAID",
+    category: "Maid of honour",
     story: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
      ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
@@ -76,7 +76,7 @@ export const cardItems = [
     Name: "GABRIEL CHRISTIANAH",
     photo: christi,
     summary: "The bride is a sweet, brilliant and no nonsense lady. Always... ",
-    category: "BRIDESMAID",
+    category: "Maid of honour",
     story: `The bride is a sweet, brilliant and no nonsense lady. Always coming through for people around.
     I pray the lord bless the marriage and be the head of their home. No evil will befall the marriage and their love for each other will wax stronger each day
     `,
@@ -97,7 +97,7 @@ export const cardItems = [
     Name: "Badejo Mosopefoluwa",
     photo: ope,
     summary: "What I know about the couple. I know ireti is... ",
-    category: "BRIDESMAID",
+    category: "Maid of honour",
     story: `What I know about the couple.
 
     I know ireti is strong willed and dedicated then Solomon is a determined and Kind person 
@@ -130,7 +130,7 @@ export const cardItems = [
     Name: "Achidi Thelma",
     photo: thelma,
     summary: "I met Ireti when I was an intern at Access Bank...",
-    category: "BRIDESMAID",
+    category: "Maid of honour",
     story: `I met Ireti when I was an intern at Access Bank in Ibadan and we clicked instantly. 
     She was one of the few people who actually took time to teach me and also made it fun. I had a
      good stay at the place because of her 🥰🥰.  I wish them the most happy and fruitful home. 
@@ -164,7 +164,7 @@ export const cardItems = [
     Name: "Esan Folasade",
     photo: sade,
     summary: "I have known Ireti for over ten years now and one thing character...",
-    category: "BRIDESMAID",
+    category: "Maid of honour",
     story: `About the bride:
     The bride - Iretioluwa is a good girl 😀.
     I have known Ireti for over ten years now and one thing character trait that is constant with her -her good heart and caring nature.
@@ -189,7 +189,7 @@ export const cardItems = [
     Name: "Olasupo Aishat",
     photo: olasupo,
     summary: "Ire is a very good friend of mine, we’ve known each other for over 12 years... ",
-    category: "BRIDESMAID",
+    category: "Maid of honour",
     story: `Ire is a very good friend of mine, we’ve known each other for over 12 years.
      Ire is a friend that provides  you with support to rely on during troubled situations, she’s empathetic fun to be with.
      Wishing you a lifetime of love and happiness ahead. Warmest wishes on your big day and as you start a new chapter of life and love together. Lots of love today and beyond.`,

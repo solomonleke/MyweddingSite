@@ -25,6 +25,7 @@ const Card = ({ data }) => {
                 top={0}
                 right={0}
                 fontSize={"1.1rem"}
+                textTransform={"uppercase"}
                 p={2}
                 bg={"orange.orange500"} fontWeight={500} color={"white"}
               >
