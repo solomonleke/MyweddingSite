@@ -1,7 +1,7 @@
 import { Box, SlideFade, Flex, Text, bgImage, Center } from "@chakra-ui/react";
 import React, { useState } from "react";
 
-import picture from "../asset/image3.jpg";
+import picture from "../asset/image2.jpg";
 import { useNavigate } from "react-router-dom";
 import Moments from "../Pages/capturedMoments/Moments";
 import tele13 from "../asset/moments/telegram/tele13.jpeg";

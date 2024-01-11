@@ -72,10 +72,7 @@ const Faq = () => {
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                Blush pink and white for Friday; Maroon and Rose gold for Saturday
                 </AccordionPanel>
               </>
             )}
@@ -103,10 +100,7 @@ const Faq = () => {
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                Your presence is the only access card you need . Be there!
                 </AccordionPanel>
               </>
             )}
@@ -134,10 +128,7 @@ const Faq = () => {
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                 Yes you can.
                 </AccordionPanel>
               </>
             )}
@@ -165,10 +156,7 @@ const Faq = () => {
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                Oh Yes ! Reception follows immediately after the church wedding
                 </AccordionPanel>
               </>
             )}
@@ -196,10 +184,7 @@ const Faq = () => {
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                 It is quite save as the venue is inside OAU site
                 </AccordionPanel>
               </>
             )}
@@ -228,10 +213,7 @@ const Faq = () => {
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                 Yes it is okay.
                 </AccordionPanel>
               </>
             )}
@@ -259,10 +241,7 @@ const Faq = () => {
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                Of course , There are hotels thats have been carefully selected just for you, Navigate to Hotel Info on the website or contact anuy of our RSVP for more info .
                 </AccordionPanel>
               </>
             )}
@@ -291,45 +270,12 @@ const Faq = () => {
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                Whats a Yoruba wedding without Aso ebi , Kindly reach out to 09053655151 to get yours .
                 </AccordionPanel>
               </>
             )}
           </AccordionItem>
-          <AccordionItem py={0.5}>
-            {({ isExpanded }) => (
-              <>
-                <h2>
-                  <AccordionButton _expanded={{ color: "orange.orange500" }}>
-                    {isExpanded ? (
-                      <BiMinus fontSize="12px" />
-                    ) : (
-                      <GrAdd fontSize="12px" />
-                    )}
-                    <Box
-                      as="span"
-                      flex="1"
-                      pl={8}
-                      textAlign="left"
-                      fontSize={"1.2rem"}
-                      fontWeight={500}
-                    >
-                      I have dietary restrictions. How do I go about it?
-                    </Box>
-                  </AccordionButton>
-                </h2>
-                <AccordionPanel pb={4}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
-                </AccordionPanel>
-              </>
-            )}
-          </AccordionItem>
+        
           <AccordionItem py={0.5}>
             {({ isExpanded }) => (
               <>
@@ -353,10 +299,7 @@ const Faq = () => {
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
+                Kindly reach out to our RSVP or call 09053655151 for further enquiry
                 </AccordionPanel>
               </>
             )}
