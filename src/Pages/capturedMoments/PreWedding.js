@@ -11,17 +11,17 @@ const PreWedding = () => {
       <Toppage text={"Pre-Wedding Shoot"} image={image1} />
       <Box
         mt={["2%", "2%", "5%", "4rem", "4rem"]}
-        px={["2%", "2%", "5%", "10%", "15%"]}
+        px={["2%", "2%", "5%", "10%", "10%"]}
       >
         <Flex
-          gap={4}
+          gap={5}
           wrap={"wrap"}
           alignItems={"center"}
           justifyContent={"center"}
         >
           {PreWeddingPictures.map((item, Index) => (
-            <Box w={"18rem"}>
-              <Image h={"100%"} w={"100%"} src={item.photo} />
+            <Box w={"17rem"}>
+              <Image  w={"100%"} src={item.photo} />
             </Box>
           ))}
         </Flex>
