@@ -1,6 +1,7 @@
 import { Box, Image, Flex, Text, useDisclosure } from "@chakra-ui/react";
 import { CardDrawer } from "./Drawer";
 import { useState } from "react";
+import Button from "./Button";
 
 const Card = ({ data }) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -40,6 +41,8 @@ const Card = ({ data }) => {
               </Text>
               <Text fontSize="14px" fontWeight="400">{card.summary}</Text>
             </Box>
+
+            <Button mt={"3"} onClick={() => HandleClick(card)}>Read more</Button>
           </Box>
         ))}
       </Flex>

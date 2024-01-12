@@ -53,7 +53,7 @@ export const cardItems = [
   {
     Name: "Akinsolu Tinuola",
     photo: tinu,
-    summary: "epele sir ",
+    summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
     category: "Maid of honour",
     story: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation

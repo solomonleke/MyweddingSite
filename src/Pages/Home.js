@@ -577,7 +577,7 @@ export default function Home() {
           </Box>
           <Box mt={8} p={8} _hover={{ bg: "rgba(142,145,145,0.1)" }}>
             <Text color={"orange.orange500"} fontWeight={500} fontSize="1.3rem">
-              January 13, 2022
+              
             </Text>
             <Text as={"b"} my={"1rem"} fontSize="2rem">
               Our Relationship
@@ -604,7 +604,7 @@ export default function Home() {
           </Box>
           <Box mt={8} p={8} _hover={{ bg: "rgba(142,145,145,0.1)" }}>
             <Text color={"orange.orange500"} fontWeight={500} fontSize="1.3rem">
-              February 13, 2021
+              October 22, 2023
             </Text>
             <Text as={"b"} my={"1rem"} fontSize="2rem">
               Our Proposal
@@ -651,7 +651,7 @@ export default function Home() {
               fontWeight={500}
               fontSize="1.3rem"
             >
-              September 13, 2021
+              February 10, 2024
             </Text>
             <Text as={"b"} my={"1rem"} fontSize="2rem">
               We are getting Married
