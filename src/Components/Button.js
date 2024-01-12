@@ -16,6 +16,8 @@ export default function Button({
   hoverColor= "orange.orange400",
   hoverBorder,
   color = '#fff',
+  fontColor = '#fff',
+  hColor = '#fff',
   border,
   w= "100%",
   leftIcon,
@@ -43,7 +45,7 @@ export default function Button({
       transition= "0.5s"
       _hover={{
         bg: hoverColor,
-        color: "#fff",
+        color: hColor,
         border: hoverBorder
       }}
       _active={{
@@ -71,7 +73,7 @@ export default function Button({
       textTransform={"capitalize"}
       mr={mr}
     >
-    <Box _hover={{color: "#fff"}} color={"#fff"} as = "a" href={href}>
+    <Box _hover={{color: "#fff"}} color={fontColor} as = "a" href={href}>
     {children}
     </Box>
     

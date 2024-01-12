@@ -42,7 +42,7 @@ const Card = ({ data }) => {
               <Text fontSize="14px" fontWeight="400">{card.summary}</Text>
             </Box>
 
-            <Button mt={"3"} onClick={() => HandleClick(card)}>Read more</Button>
+            <Button background="#ddd" hoverColor="#333" hColor="#fee" fontColor="#000" mt={"3"} onClick={() => HandleClick(card)}>Read more</Button>
           </Box>
         ))}
       </Flex>
