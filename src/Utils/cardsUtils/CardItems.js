@@ -64,13 +64,30 @@ export const cardItems = [
   {
     Name: "Omirhobo Richard (Chinco)",
     photo: chinco,
-    summary: "  sunt in culpa qui officia deserunt mo",
+    summary: "So I’ve known Moyin Adeleke way back from secondary school days, tho we didn’t vibe...",
     category: "GROOMSMAN",
-    story: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
-    ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-     dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-     sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+    story: `So I’ve known Moyin Adeleke way back from secondary school days, tho we didn’t vibe until after secondary school.
+    Hmm I already told moyin that I’d say this on his wedding day. Moyin bullied 💪me back in secondary school ooh infact one time he gave me a very dirty slap that I had blood in my eyes for 2weeks. I called that slap (Moyin Slap cos the slap was hefty). I know you all would want to know the story behind the slap. Well I’d continue the story on my wedding day, so if you want to know how the story went then come on my wedding day👨‍⚖👰🏻‍♀🤪.
+    
+    But immediately after secondary school we started vibing well infact Moyin was the last person that I’d think of getting close to especially after that (Moyin Slap)
+    He has been someone who as always pushed me, he’d always be like guy come and do tech, tech is where the money is. Infact it got to a time he was begging me saying guy do please just go into tech, tech is the next way bro and truly that motivated me into tech now. All thanks to Moyin.
+    I could say a lot about Moyin cos he’s a wonderful friend.  But I’d just say a few 
+    Moyin Loves God
+    Moyin Loves Iretioluwa(oh yes my guy is a one Man woman) since have known him to be in a relationship with ireti, moyin has never talked about another lady let alone seen with another lady, na man you be.
+    Moyin is Passion Driven
+    Moyin is Intelligent 
+    Moyin is a Goal setter and Goal getter
+    Moyin is Devoted
+    Moyin is a Dedicated Man
+    Moyin is a motivator 
+    Moyin tells you if you’re wrong
+    Ah yes Moyin loves Origin😂😂😂
+    Moyin is one hell of a good driver, how can I even almost forget about this😂
+    And finally he might not know this but I look up to him as My Mentor cos he portrays everything a Mentor should have. 
+    (Because a Mentor is who knows the way and shows you the way) and this is exactly what My Brother here Mr Moyin Adeleke Portrays.
+    
+    CONGRATULATIONS 🎉🎉🎊🎈 ON YOUR WEDDING. I wish you all the best of things that comes with marriage. May your home bring peace and be filled with love and wonderful children 
+    Amen`,
   },
   {
     Name: "GABRIEL CHRISTIANAH",
