@@ -53,13 +53,22 @@ export const cardItems = [
   {
     Name: "Akinsolu Tinuola",
     photo: tinu,
-    summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+    summary: "Life took an unexpected and delightful turn when I applied to Access Bank. The ELTP...",
     category: "Maid of honour",
-    story: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-     ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-      in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-       non proident, sunt in culpa qui officia deserunt mollit anim id est laborum`,
+    story: `Life took an unexpected and delightful turn when I applied to Access Bank. The ELTP was supposed to mark the beginning of an amazing journey, but little did I know that God had even more extraordinary plans to connect me with beautiful souls who have now become family.
+
+    In those memorable days in class, I found myself seated beside a girl who couldn't stop cracking jokes and was always on a video or audio call, passionately ranting or professing love. I couldn't help but think, "God, when, abeg?"
+    
+    I kid you not, we were kindred spirits – proud back-benchers with a surplus of brains, and both of us were serial noisemakers, turning even serious situations into moments of laughter.
+    
+    Her unending video calls and occasional vacations with that heavily packed school bag were clues. We all knew she was off to visit our 29th classmate, MIMO, of course. He was already a part of our class, virtually present in every conversation and laughter.
+    
+    Little did I know that those moments marked the beginning of a splendid friendship that would unfold beautifully over time, between myself and the couple.
+    
+    As you both embark on this exciting journey of marriage, I send my heartfelt prayers your way. May your union be filled with peace in abundance, unmerited blessings, and the kind of love that grows stronger with each passing day.
+    
+    Lots of love, 
+    Tinuola.`,
   },
   {
     Name: "Omirhobo Richard (Chinco)",
